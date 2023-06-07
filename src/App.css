@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-img{
+  background-image: url('../src/images/service-img-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1250px;
+}
+
+.cal{
+min-height: calc(100%-96px);
+}
