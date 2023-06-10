@@ -1,5 +1,5 @@
 import {React,useEffect,useState} from 'react'
-import logo from '../images/logo.png';
+import logo from '../images/logo_3.png';
 import { MdOutlineFormatListBulleted } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className='bg-blue-950 '>
       <div  className='relative w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex items-center justify-between '>
           <div>
-          <a href="/" className='cursor-pointer py-7 pr-7 block'><img src={logo} alt="" width="200" height="50"/></a>
+          <a href="/" className='cursor-pointer py-7 pr-7 block'><img src={logo} alt="" width="200" height="30"/></a>
           <p></p>
           </div>
 

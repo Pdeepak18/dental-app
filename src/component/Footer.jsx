@@ -22,7 +22,8 @@ export default function Footer() {
     <footer className="relative w-full p-10">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
-          <Typography variant="h5" className="mb-6">
+          <Typography variant="h3" className="mb-6">
+
           FRAGLOT SURGICAL WORKS
           </Typography>
           <div className="grid md:grid-cols-3 justify-between gap-4">
