@@ -4,13 +4,17 @@ import Slider from './Slider';
 import Navbar from './Navbar';
 import "../App.css"
 import Aboutsection from './Aboutsection';
+import Productsection from './Productsection';
+import Footer from './Footer';
+
 const Home = () => {
   return (
    <div>
     <Navbar />
     <Slider />
     <Aboutsection />
-
+    <Productsection />
+    <Footer />
    </div>
   )
 }
