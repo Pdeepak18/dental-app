@@ -26,7 +26,7 @@ const Navbar = () => {
           <div>
                 <ul className='hidden gap-5 lg:flex'>
                   <li className='text-black relative font-inherit py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 text-xl group'> 
-                  <a href="#" className="text-xl">Home</a>
+                  <a href="/" className="text-xl"><Link to="/">Home</Link></a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li>
                   <li className='text-black relative font-inherit py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 text-xl group'> 
@@ -38,7 +38,7 @@ const Navbar = () => {
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li> 
                   <li className='text-black relative font-inherit py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 text-xl group'> 
-                  <a href="#" className="text-xl"> <Link to="/contactus">Contact Us</Link></a>
+                  <a href="/contactus" className="text-xl"> <Link to="/contactus">Contact Us</Link></a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li>
                 </ul>
