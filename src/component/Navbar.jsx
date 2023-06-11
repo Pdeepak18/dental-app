@@ -25,19 +25,19 @@ const Navbar = () => {
 
           <div>
                 <ul className='hidden gap-5 lg:flex'>
-                  <li className='text-black relative font-inherit py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 text-xl group'> 
-                  <a href="/" className="text-xl"><Link to="/">Home</Link></a>
+                  <li className='text-black relative font-inherit py-7 hover:font-bold cursor-pointer transition-all duration-200 text-xl group'> 
+                  <a href="/" className="text-xl "><Link to="/">Home</Link></a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li>
-                  <li className='text-black relative font-inherit py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 text-xl group'> 
+                  <li className='text-black relative font-inherit py-7 hover:font-bold cursor-pointer transition-all duration-200 text-xl group'> 
                   <a href="#" className="text-xl">About Us</a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li>
-                  <li className='text-black relative font-inherit py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 text-xl group'> 
+                  <li className='text-black relative font-inherit py-7 hover:font-bold cursor-pointer transition-all duration-200 text-xl group'> 
                   <a href="#" className="text-xl">Our Products</a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li> 
-                  <li className='text-black relative font-inherit py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 text-xl group'> 
+                  <li className='text-black relative font-inherit py-7 hover:font-bold cursor-pointer transition-all duration-200 text-xl group'> 
                   <a href="/contactus" className="text-xl"> <Link to="/contactus">Contact Us</Link></a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li>
@@ -55,13 +55,13 @@ const Navbar = () => {
 
         <div  className='relative w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex items-center justify-between lg:hidden'>
           <ul className=''>
-            <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'><a href="/" >Home</a>
+            <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'> <a href="/" className="text-xl"><Link to="/">Home</Link></a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>
             <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'><a href="/about-us" >About Us</a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>   
               <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'><a href="/our-products" >Our Products</a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>  
-               <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'><a href="/contact-us" >Contact Us</a>
+               <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'> <a href="/contactus" className="text-xl"> <Link to="/contactus">Contact Us</Link></a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>
 
           </ul>

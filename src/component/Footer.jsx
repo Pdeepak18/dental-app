@@ -34,7 +34,7 @@ export default function Footer() {
                 <Typography
                   variant="small"
                   color="#5A5A5A"
-                  className="mb-3 font-medium opacity-40"
+                  className="text-dark mb-1 text-xl font-bold"
                 >
                   {title}
                 </Typography>
