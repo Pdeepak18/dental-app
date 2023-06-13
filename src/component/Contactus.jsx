@@ -1,8 +1,41 @@
 import Navbar from './Navbar';
 import React from 'react'
 import Footer from './Footer';
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contactus = () => {
+
+  const form = useRef();
+
+
+  const showToastMessage = () => {
+    toast.success('Successfully Send  !', {
+        position: toast.POSITION.TOP_RIGHT,
+        autoClose: 1500,
+    });
+};
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log(form.current);
+    emailjs.sendForm('service_3fi3yyp', 'template_cixjtok', form.current, 'zr-jq9Sw59FE6Uvqf')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Successfully send");
+          e.target.reset();
+          showToastMessage();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+
+
+
   return (
     // <!-- Container for demo purpose -->
     < >
@@ -102,32 +135,42 @@ const Contactus = () => {
       </div>
       <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
         <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-          <form>
+          <form  ref={form} onSubmit={sendEmail}>
             <div className="mb-6">
               <input
                 type="text"
                 placeholder="Your Name"
+                name="user_name"
+                required
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
             <div className="mb-6">
               <input
                 type="email"
+                name="user_email"
                 placeholder="Your Email"
+                required
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
             <div className="mb-6">
               <input
-                type="text"
+                type="tel"
+                name="phone_no"
                 placeholder="Your Phone"
+                required
+                pattern="\d*"
+                maxlength="10"
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
             <div className="mb-6">
               <textarea
                 rows="6"
+                name="message" 
                 placeholder="Your Message"
+                required
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               ></textarea>
             </div>
