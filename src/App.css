@@ -141,3 +141,11 @@ color: black;
   fill: #61dafb;
   color:rgb(43, 145, 241);
 }
+
+@media (max-width: 600px) {
+  .smll{
+    padding-right:5px;
+    padding-left:8px;
+
+  }
+}
