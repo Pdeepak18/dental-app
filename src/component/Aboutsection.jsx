@@ -32,7 +32,7 @@ const Aboutsection = () => {
         </div>
 
         <div className="about ">
-          <p className="text-xl text-left font-bold	 font-poppins">
+          <p className="text-xl text-left font-bold	 font-poppins smll-font ">
             Established in the year 1983 we, "FRAGLOT", are a well
             known name engaged in manufacturing and supplying an array of
             Surgical Instruments. Our products are accepted and appreciated for
@@ -40,7 +40,7 @@ const Aboutsection = () => {
             functioning. We have been able to create a niche in the domain by
             providing international quality products to our customers.
           </p>
-          <p className="text-left text-xl mt-10  font-bold">
+          <p className="text-left text-xl mt-10  font-bold smll-font">
             We are backed by a state-of-the-art manufacturing facility, which
             helps us in meeting the bulk requirements of our customers within
             the stipulated time frame. It is installed with latest technology
