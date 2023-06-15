@@ -31,11 +31,11 @@ const Navbar = () => {
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li>
                   <li className='text-black relative font-inherit py-7 hover:font-bold cursor-pointer transition-all duration-200 text-xl group'> 
-                  <a href="#" className="text-xl">About Us</a>
+                  <a href="/aboutus" className="text-xl"><Link to="/aboutus">About Us</Link></a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li>
                   <li className='text-black relative font-inherit py-7 hover:font-bold cursor-pointer transition-all duration-200 text-xl group'> 
-                  <a href="#" className="text-xl">Our Products</a>
+                  <a href="/ourproducts" className="text-xl"><Link to="/ourproducts">Our Products</Link></a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li> 
                   <li className='text-black relative font-inherit py-7 hover:font-bold cursor-pointer transition-all duration-200 text-xl group'> 
@@ -58,9 +58,9 @@ const Navbar = () => {
           <ul className=''>
             <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'> <a href="/" className="text-xl"><Link to="/">Home</Link></a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>
-            <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'><a href="/about-us" >About Us</a>
+            <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'>   <a href="/aboutus" className="text-xl"><Link to="/aboutus">About Us</Link></a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>   
-              <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'><a href="/our-products" >Our Products</a>
+              <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'><a href="/ourproducts" className="text-xl"><Link to="/ourproducts">Our Products</Link></a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>  
                <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'> <a href="/contactus" className="text-xl"> <Link to="/contactus">Contact Us</Link></a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>
