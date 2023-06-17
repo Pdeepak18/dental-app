@@ -53,7 +53,7 @@ const Productsection = () => {
 
         {/* img-3 */}
             <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
-                <img src={prod_1} alt="" className='bg image h-[310px]' />
+                <img src={prod_1} alt="" className='bg image h-[210px] md:h-[310px]' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
                     <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
@@ -79,7 +79,7 @@ const Productsection = () => {
 
             {/* img-5 */}
             <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover '>
-                <img src={prod_3} alt="" className='bg image  h-[350px]' />
+                <img src={prod_3} alt="" className='bg image h-[210px] md:h-[350px]' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
                     <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
@@ -93,7 +93,7 @@ const Productsection = () => {
 
             {/* img-6 */}
             <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover'>
-                <img src={prod_9} alt="" className='bg image  h-[350px] object-fit ' />
+                <img src={prod_9} alt="" className='bg image h-[210px] md:h-[350px] object-fit ' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
                     <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
