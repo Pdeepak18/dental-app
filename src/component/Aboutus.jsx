@@ -6,6 +6,7 @@ import { Carousel, Typography, Button } from "@material-tailwind/react";
 import quality from "../images/quality.21b31cce00d40e8606b8.png"
 import dt from "../images/download.png"
 import waran from "../images/waran.7a6416166ed3df4c00af.png"
+import { Link } from 'react-router-dom';
 
 
 
@@ -35,7 +36,7 @@ const Aboutus = () => {
                 color="white"
                 className="mb-12 opacity-80 smll-font"
               >
-                <p className="italic"><a href="/" className="hover:text-light-blue-900">Home</a>  /<a href="/" className="hover:text-light-blue-900"> About Us</a></p>
+                <p className="italic"><a href="/" className="hover:text-light-blue-900"><Link to="/">Home</Link></a>  /<a href="/" className="hover:text-light-blue-900"> <Link to="/aboutus">About Us</Link></a></p>
               </Typography>
             </div>
           </div>
@@ -48,6 +49,11 @@ const Aboutus = () => {
       color="#002984">
         <p className="text-sky-600	">About Us</p>
       </Typography> */}
+ 
+
+
+
+
 
       <div className="benefits extra-margin flex flex-col  md:flex-row justify-center gap-[150px]">
           <div className="benefits-single">

@@ -59,6 +59,28 @@ var count = [
   prod_9,
 ];
 
+const head =["Nasal Rongeur Instruments" ,
+"Weil Blakesley Instruments",
+"Osher Snyder IOL   Instruments",
+"Yasargil Bayonet Tumor Grasping",
+"Titanium Hair Transplant Tweezers",
+"Reusable Arthroscopy Punch Forceps",
+"Frontal Sinus Thru Cut Forceps",
+"Micro Titanium Hair Transplant Tweezers",
+"Laparoscopic New Multi Function Trocar "
+
+]
+const desc =[
+  "Fraglot offers the best value Nasal Rongeur Instruments in surgical instruments.",
+"Fraglot Surgicals offers the best value Weil Blakesley in surgical instruments.",
+"Fraglot Surgicals offers the best value Osher Snyder IOL Cutting  instrument in surgical instruments.",
+"Fraglot Surgicals offers the best value Yasargil Bayonet Tumor Grasping in surgical instruments.",
+"Fraglot Surgicals offers the best value Titanium Hair Transplant Tweezers in surgical instruments.",
+"Fraglot Surgicals offers the best value Reusable Arthroscopy Punch Forceps in surgical instruments.",
+"Fraglot Surgicals offers the best value Frontal Sinus Thru Cut Forceps in surgical instruments.",
+"Fraglot Surgicals offers the best value Micro Titanium Hair Transplant Tweezers straight in surgical instruments.",
+"Fraglot Surgicals offers the best value Laparoscopic New Multi Function Trocar  in surgical instruments."
+]
 var temp = 0;
 var temp2 = 0;
 
@@ -100,7 +122,7 @@ export default function Ourproducts() {
                 color="white"
                 className="mb-12 opacity-80 smll-font"
               >
-                <p className="italic"><a href="/" className="hover:text-light-blue-900">Home</a>  /<a href="/" className="hover:text-light-blue-900"> Our Products</a></p>
+                <p className="italic"><a href="/" className="hover:text-light-blue-900"><Link to="/">Home</Link></a>  /<a href="/" className="hover:text-light-blue-900"><Link to="/ourproducts">Our Products</Link></a></p>
               </Typography>
             </div>
           </div>
@@ -115,7 +137,7 @@ export default function Ourproducts() {
       </h1>
       <div className="about1  px-5 md:px-20 w-full">
         <p className="text-[14px] md:text-lg text-justify font-bold	 font-poppins ">
-          Established in the year 1983 we, "FRAGLOT", are a well known name
+          Established in the year 2018 we, "FRAGLOT", are a well known name
           engaged in manufacturing and supplying an array of Surgical
           Instruments. Our products are accepted and appreciated for features
           such as rust resistant, precisely designed and efficient functioning.
@@ -178,22 +200,19 @@ export default function Ourproducts() {
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Heading
+                    {head[temp]}
                   </Typography>
-                  <Typography>
-                    This is a media card. You can use this section to describe
-                    the content.
+                  <Typography sx={{ margintop:"20px",}} margin-top={4}	className="guide">
+                   {desc[temp]}
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" onClick={() => handleOpen(card)}>
-                    View{console.log(temp2)}
-                  </Button>
+                 
                   
                   <Button size="small">
                     <Link to="/contactus">
                       {" "}
-                      <p className="text-white"> Contact Us</p>
+                      <p className="text-white"><a href="/contactus"> <Link to="/contactus">Contact Us</Link></a></p>
                     </Link>
                   </Button>
                 </CardActions>

@@ -188,7 +188,7 @@ Box::backdrop {
 
 
 .benefits {
-  padding: 3rem 0 3rem;
+  padding: 3rem 0 ;
   background-color: var(--card-bg);
   margin-bottom: 4rem;
 }
@@ -220,10 +220,40 @@ Box::backdrop {
 .benefits-detail {
   color: var(--gray);
 }
+.guide{
+  margin-top: 10px;
+  margin-bottom: auto;
+}
+.add-icon{
+  margin-left: 80px;
+  padding-bottom: 0.5rem;
+
+}
+
+.info-head {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}
+.details{
+  margin-top: 5px;
+  background-color: var(--card-bg);
+  margin-bottom: 2rem;
+}
 
 @media screen and (max-width: 350px) {
   .benefits-single {
    margin-left:30px;
+  }
+
+  .info-head {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+  }
+  .benefits-detail {
+    font-size: 0.8rem;
+    color: var(--gray);
   }
  
 }

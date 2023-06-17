@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import logo from '../images/logo_3.png';
+import { Link } from 'react-router-dom';
 
 const LINKS = [
   {
@@ -8,7 +9,7 @@ const LINKS = [
   },
   {
     title: "Company",
-    items: [(<a href="/aboutus">About us</a> ), (<a href="/ourproducts">Our Products</a> ), (<a href="/contactus">Contact us</a> ), ""],
+    items: [(<a href="/aboutus"><Link to="/aboutus">About Us</Link></a> ), (<a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a> ), (<a href="/contactus"><Link to="/contactus">Contact Us</Link></a> ), ""],
   },
   {
     title: "Resource",

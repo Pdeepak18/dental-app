@@ -7,6 +7,7 @@ import Aboutsection from './Aboutsection';
 import Productsection from './Productsection';
 import Footer from './Footer';
 import TestimonialCarousel from "./Carousel";
+import Details from './Details';
 
 const Home = () => {
   return (
@@ -15,9 +16,10 @@ const Home = () => {
     <Slider />
     <Aboutsection />
     <Productsection />
-    <div className="carousel">
+    {/* <div className="carousel">
           <TestimonialCarousel />
-        </div>
+        </div> */}
+    <Details />
     <Footer />
    </div>
   )

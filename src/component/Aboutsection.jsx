@@ -1,6 +1,8 @@
 import React from "react";
 import business from "../images/businessman.jpg";
 import "../App.css";
+import { Link } from 'react-router-dom';
+
 
 const Aboutsection = () => {
   return (
@@ -33,7 +35,7 @@ const Aboutsection = () => {
 
         <div className="about ">
           <p className="text-xl text-justify font-bold	 font-poppins smll-font ">
-            Established in the year 1983 we, "FRAGLOT", are a well
+            Established in the year 2018 we, "FRAGLOT", are a well
             known name engaged in manufacturing and supplying an array of
             Surgical Instruments. Our products are accepted and appreciated for
             features such as rust resistant, precisely designed and efficient
@@ -56,7 +58,7 @@ const Aboutsection = () => {
           <button
                   className="bg-green-400 w-full mt-6 md:w-fit flex items-center justify-center md:justify-start text-white py-[14px] px-[18px] rounded-md font-inherit font-bold hover:bg-red-400 transition-all duration-200"
                 >
-                 Know More<svg
+                 <a href="/aboutus" className="text-xl"><Link to="/aboutus">Know More</Link></a><svg
                     viewBox="0 0 24 24"
                     focusable="false"
                     className="w-[14px] h-[14px] ml-2 my-1"

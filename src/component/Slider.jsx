@@ -3,6 +3,7 @@ import {React,useEffect,useState} from 'react'
 import home01 from '../images/home01.jpg';
 import prod_5 from "../images/service-img-1.jpg";
 import '../App.css'
+import { Link } from 'react-router-dom';
 
 
 export default function Slider() {
@@ -57,21 +58,21 @@ export default function Slider() {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              Established in the year 1998
+              Established in the year 2018
             </Typography>
             <Typography
               variant="lead"
               color="white"
               className="mb-12 opacity-80 smll-font"
             >
-              "Adarsh Surgical Malad", are a well known name engaged in manufacturing and supplying an array of Surgical Instruments.
+              "Fraglot ", are a well known name engaged in manufacturing and supplying an array of Surgical Instruments.
             </Typography>
             <div className="flex justify-center gap-2">
               <Button size="lg" color="white">
-              <a href="/ourproducts">Explore</a>
+              <a href="/ourproducts"><Link to="/ourproducts"> Explore</Link></a>
               </Button>
               <Button size="lg" color="white" variant="text">
-              <a href="/contactus">Contact us</a>
+              <a href="/contactus"> <Link to="/contactus">Contact Us</Link></a>
               </Button>
             </div>
           </div>
@@ -101,10 +102,10 @@ export default function Slider() {
             </Typography>
             <div className="flex justify-center gap-2">
               <Button size="lg" color="white">
-              <a href="/ourproducts">Explore</a>
+              <a href="/ourproducts"><Link to="/ourproducts"> Explore</Link></a>
               </Button>
               <Button size="lg" color="white" variant="text">
-                <a href="/contactus">Contact us</a>
+                <a href="/contactus"> <Link to="/contactus">Contact Us</Link></a>
               </Button>
             </div>
           </div>
