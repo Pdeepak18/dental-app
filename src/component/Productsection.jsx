@@ -24,7 +24,7 @@ const Productsection = () => {
             <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-20"></div>
         </div>
 
-        <div className='flex flex-wrap justify-center gap-4 mb-4 mt-12 '>
+        <div className='flex flex-wrap justify-center gap-4 mb-4 mt-12 items-stretch'>
 
             {/* img-1 */}
         <figure  className='bgcard1 tg relative bg-image  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
