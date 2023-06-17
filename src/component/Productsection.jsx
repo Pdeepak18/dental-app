@@ -11,6 +11,7 @@ import prod_6 from "../images/prod-6.jpg";
 import prod_7 from "../images/prod-7.jpg";
 import prod_8 from "../images/prod-8.jpg";
 import prod_9 from "../images/prod-9.jpg";
+import { Link } from 'react-router-dom';
 
 
 const Productsection = () => {
@@ -29,8 +30,8 @@ const Productsection = () => {
         <figure  className='bgcard1 tg relative bg-image  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
                 <img src={serv1} alt="" className='bg image  ' />
                 <div className="middle">
-                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
-                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
+                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
+                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a></a></div>
                 </div>
                 <figcaption className="absolute bottom-0 z-90 w-4/4 md:w-4/4 bg-black/50 px-5 py-2 text-white capt">
             <h1 className="text-lg md:text-xl font-bold ">Micro Surgery Instruments</h1>
@@ -42,8 +43,8 @@ const Productsection = () => {
             <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
                 <img src={serv2} alt="" className='bg image' />
                 <div className="middle">
-                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
-                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
+                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
+                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a></a></div>
                 </div>
                 <figcaption className="absolute bottom-0 z-90 w-4/4 md:w-4/4 bg-black/50 px-5 py-2 text-white capt">
             <h1 className="text-lg md:text-xl font-bold ">Hair Transplant Instruments</h1>
@@ -55,8 +56,8 @@ const Productsection = () => {
             <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
                 <img src={prod_1} alt="" className='bg image h-[210px] md:h-[310px]' />
                 <div className="middle">
-                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
-                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
+                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
+                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a></a></div>
                 </div>
                 <figcaption className="absolute bottom-0 z-90 w-4/4 md:w-4/4 bg-black/50 px-5 py-2 text-white capt">
             <h1 className="text-lg md:text-xl font-bold ">Nasal Rongeur Instruments</h1>
@@ -68,8 +69,8 @@ const Productsection = () => {
             <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] object-fit'>
                 <img src={prod_2} alt="" className='bg image   object-cover' />
                 <div className="middle">
-                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
-                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
+                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
+                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a></a></div>
                 </div>
                 <figcaption className="absolute bottom-0 z-90 w-4/4 md:w-4/4 bg-black/50 px-5 py-2 text-white capt">
             <h1 className="text-lg md:text-xl font-bold ">Weil Blakesley Instruments</h1>
@@ -81,8 +82,8 @@ const Productsection = () => {
             <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover '>
                 <img src={prod_3} alt="" className='bg image h-[210px] md:h-[350px]' />
                 <div className="middle">
-                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
-                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
+                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
+                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a></a></div>
                 </div>
                 <figcaption className="absolute bottom-0 z-90 w-4/4 md:w-4/4 bg-black/50 px-5 py-2 text-white capt">
             <h1 className="text-lg md:text-xl font-bold ">Osher Snyder IOL Cutting  Instruments</h1>
@@ -95,8 +96,8 @@ const Productsection = () => {
             <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover'>
                 <img src={prod_9} alt="" className='bg image h-[210px] md:h-[350px] object-fit ' />
                 <div className="middle">
-                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus">Contact us</a></a></div>
-                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts">Know More</a></a></div>
+                    <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
+                    <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a></a></div>
                 </div>
                 <figcaption className="absolute bottom-0 z-90 w-4/4 md:w-4/4 bg-black/50 px-5 py-2 text-white capt">
             <h1 className="text-lg md:text-xl font-bold ">Laparoscopic  Instruments</h1>

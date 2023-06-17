@@ -16,8 +16,7 @@ const Details = () => {
            <FaRegAddressCard  size="100px" className=' add-icon'/>
             <h4 className="info-head ">Address</h4>
             <p className="benefits-detail">
-              Our online products are renowned for their exceptional quality,
-              ensuring customer satisfaction with every purchase.
+            99 S.t Jomblo Park Pekanbaru 28292. Indonesia
             </p>
           </div>
 
@@ -25,8 +24,7 @@ const Details = () => {
           <FiPhone  size="80px" className=' add-icon '/>  
           <h4 className="info-head mt-3">Phone</h4>
             <p className="benefits-detail">
-              Enjoy the convenience of free shipping on all our online products,
-              making your shopping experience hassle-free.
+            (+62)81 414 257 9980
             </p>
           </div>
 
@@ -36,8 +34,11 @@ const Details = () => {
             <h4 className="info-head mt-1">Mail</h4>
 
             <p className="benefits-detail">
-              Rest assured with our comprehensive warranty, providing protection
-              for your purchased online products.
+            info@yourdomain.com <br />
+            info@yourdomain.com
+
+
+
             </p>
           </div>
         </div>
