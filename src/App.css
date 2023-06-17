@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Pacifico&family=Poppins:wght@200&display=swap');
+
+:root {
+  --gray: #4f4f4f;
+  --card-bg: #f3f3f3;
+}
+.extra-margin {
+  margin-top: 10rem;
+}
 .App {
   text-align: center;
 }
@@ -38,9 +46,12 @@
   }
 }
 
+.carousel {
+  /* padding: 1rem 2rem ; */
+}
 
 .bg-img{
-  background-image: url('../src/images/service-img-1.jpg');
+  background-image: url('../src/images/service-img-2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1250px;
@@ -173,4 +184,46 @@ color: black;
 
 Box::backdrop {
   background-color: rgb(255, 0, 0);
+}
+
+
+.benefits {
+  padding: 3rem 0 3rem;
+  background-color: var(--card-bg);
+  margin-bottom: 4rem;
+}
+
+.benefits-single {
+  width: 250px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.benefits-wara,
+.benefits-quality {
+  width: 55px;
+  padding-bottom: 1rem;
+  margin-left: 90px;
+}
+
+.benefits-truck {
+  width: 100px;
+  padding-bottom: 1rem;
+  margin-left: 70px;
+}
+
+.benefits-head {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.benefits-detail {
+  color: var(--gray);
+}
+
+@media screen and (max-width: 350px) {
+  .benefits-single {
+   margin-left:30px;
+  }
+ 
 }

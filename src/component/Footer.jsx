@@ -4,11 +4,11 @@ import logo from '../images/logo_3.png';
 const LINKS = [
   {
     title: "Product",
-    items: ["Overview", "Features", "Solutions", "Tutorials"],
+    items: [" Micro Scissor", "Tubal clamps", "Micro forceps	", "Gomel micro forceps	"],
   },
   {
     title: "Company",
-    items: ["About us", "Careers", "Press", "News"],
+    items: [(<a href="/aboutus">About us</a> ), (<a href="/ourproducts">Our Products</a> ), (<a href="/contactus">Contact us</a> ), ""],
   },
   {
     title: "Resource",
@@ -22,13 +22,13 @@ export default function Footer() {
   return (
     <footer className="relative w-full p-10 ">
       <div className="mx-auto w-full max-w-7xl px-8">
-        <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 justify-between gap-3 md:grid-cols-2">
           <Typography variant="h3" className="mb-6">
           
           <img src={logo} alt="" width="280px"/>
           
           </Typography>
-          <div className="grid md:grid-cols-3 justify-between gap-4">
+          <div className="grid md:grid-cols-3 justify-between gap-5 ">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
                 <Typography
@@ -59,7 +59,7 @@ export default function Footer() {
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
           >
-            &copy; {currentYear} <a href="https://github.com/Pdeepak18/">Deepak Pandey</a>. All
+            &copy; {currentYear} <a href="https://fraglot.onrender.com/">Fraglot</a>. All
             Rights Reserved.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
@@ -87,6 +87,7 @@ export default function Footer() {
               </svg>
             </Typography>
             <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
+            <a href="https://github.com/Pdeepak18/">
               <svg className="h-7 w-7 footgithub" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   fill-rule="evenodd"
@@ -94,6 +95,7 @@ export default function Footer() {
                   clip-rule="evenodd"
                 />
               </svg>
+              </a>
             </Typography>
             <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
             <img width="30" height="30" className="footdiscord" src="https://img.icons8.com/ios/50/discord-logo--v1.png" alt="discord-logo--v1"/>

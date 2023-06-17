@@ -6,6 +6,7 @@ import "../App.css"
 import Aboutsection from './Aboutsection';
 import Productsection from './Productsection';
 import Footer from './Footer';
+import TestimonialCarousel from "./Carousel";
 
 const Home = () => {
   return (
@@ -14,6 +15,9 @@ const Home = () => {
     <Slider />
     <Aboutsection />
     <Productsection />
+    <div className="carousel">
+          <TestimonialCarousel />
+        </div>
     <Footer />
    </div>
   )
