@@ -21,14 +21,14 @@ const Productsection = () => {
         {/* flex flex-wrap justify-center gap-4 mb-4 */}
         <div>
             <h2 className='text-2xl text-slate-500 text-center	'>OUR PRODUCT RANGE</h2>
-            <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-20"></div>
+            <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-10 md:mb-20"></div>
         </div>
 
         <div className='flex flex-wrap justify-center gap-4 mb-4 mt-12 items-stretch'>
 
             {/* img-1 */}
-        <figure  className='bgcard1 tg relative bg-image  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
-                <img src={serv1} alt="" className='bg image  w-full  h-[210px] md:h-[350px]' />
+        <figure  className='bgcard1 tg relative bg-image  cursor-pointer border-solid w-[100%] md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
+                <img src={serv1} alt="" className='bg image  md:w-full  h-[210px] md:h-[350px]' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
                     <div className="block md:hidden text"><a href="" className='underline'><a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a></a></div>
@@ -40,7 +40,7 @@ const Productsection = () => {
             </figure>
         
         {/* img-2 */}
-            <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
+            <figure  className='bgcard1 tg relative  cursor-pointer border-solid w-[100%] md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
                 <img src={serv2} alt="" className='bg image   w-full h-[210px] md:h-[350px]' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
@@ -53,7 +53,7 @@ const Productsection = () => {
             </figure>
 
         {/* img-3 */}
-            <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
+            <figure  className='bgcard1 tg relative  cursor-pointer border-solid w-[100%] md:w-[25%] md:h-[45%] hover:scale-[1.05] '>
                 <img src={prod_1} alt="" className='bg image  w-full h-[210px] md:h-[350px]' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
@@ -66,7 +66,7 @@ const Productsection = () => {
             </figure>
 
             {/* img-4 */}
-            <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover '>
+            <figure  className='bgcard1 tg relative  cursor-pointer border-solid w-[100%] md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover '>
                 <img src={prod_2} alt="" className='bg image w-full  h-[210px] md:h-[350px]  object-cover bg-center' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
@@ -79,7 +79,7 @@ const Productsection = () => {
             </figure>
 
             {/* img-5 */}
-            <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover '>
+            <figure  className='bgcard1 tg relative  cursor-pointer border-solid w-[100%] md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover '>
                 <img src={prod_3} alt="" className='bg image  w-full h-[210px] md:h-[350px] bg-center' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>
@@ -93,7 +93,7 @@ const Productsection = () => {
 
 
             {/* img-6 */}
-            <figure  className='bgcard1 tg relative  cursor-pointer border-solid md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover'>
+            <figure  className='bgcard1 tg relative  cursor-pointer border-solid w-[100%] md:w-[25%] md:h-[45%] hover:scale-[1.05] object-cover'>
                 <img src={prod_9} alt="" className='bg image  w-full h-[210px] md:h-[350px] object-fit ' />
                 <div className="middle">
                     <div className="hidden md:block text"><a href="" className='underline'><a href="/contactus"><Link to="/contactus">Contact Us</Link></a></a></div>

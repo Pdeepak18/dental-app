@@ -24,7 +24,7 @@ export default function Footer() {
     <footer className="relative w-full p-10 ">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid grid-cols-1 justify-between gap-3 md:grid-cols-2">
-          <Typography variant="h3" className="mb-6">
+          <Typography variant="h3" className="mb-6 ">
           
           <img src={logo} alt="" width="280px"/>
           
@@ -35,7 +35,7 @@ export default function Footer() {
                 <Typography
                   variant="small"
                   color="#5A5A5A"
-                  className="text-dark mb-1 text-xl font-bold"
+                  className="text-dark mb-1 text-xl font-bold font-poppins"
                 >
                   {title}
                 </Typography>
@@ -45,7 +45,7 @@ export default function Footer() {
                       as="a"
                       href="#"
                       color="gray"
-                      className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                      className="py-1.5  font-poppins font-normal transition-colors hover:text-blue-gray-900"
                     >
                       {link}
                     </Typography>
@@ -58,7 +58,7 @@ export default function Footer() {
         <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
-            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
+            className="mb-4 text-center font-poppins font-normal text-blue-gray-900 md:mb-0"
           >
             &copy; {currentYear} <a href="https://fraglot.onrender.com/">Fraglot</a>. All
             Rights Reserved.

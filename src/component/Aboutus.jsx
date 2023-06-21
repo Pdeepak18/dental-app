@@ -89,7 +89,7 @@ const Aboutus = () => {
       </div>
 
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl leading-2 md:leading-8">
-        <p className="mb-1 	 leading-normal">Instruments Wide-ranging Applications</p>
+        <p className="mb-1 	 leading-normal text-left">Instruments Wide-ranging Applications</p>
         <p className="mb-1 leading-normal">
           You can select from a vast assortment of instruments products, such as
           the Dermojet, Derma blade, and more, which we provide for various

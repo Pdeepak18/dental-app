@@ -253,7 +253,14 @@ Box::backdrop {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
+
+  .details{
+    padding: 0 1rem;
+  }
+  .benefits-about{
+    padding: 0 1rem;
+  }
   .benefits-single {
    margin-left:30px;
   }
@@ -264,7 +271,7 @@ Box::backdrop {
     padding-bottom: 0.5rem;
   }
   .benefits-detail {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--gray);
   }
  

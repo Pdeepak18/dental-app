@@ -30,7 +30,7 @@ const Aboutsection = () => {
           <h3 className="text-center text-xl font-bold	bt">
             ABOUT FRAGLOT SURGICAL WORKS
           </h3>
-          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-20"></div>
+          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-10 md:mb-20"></div>
         </div>
 
         <div className="about ">
