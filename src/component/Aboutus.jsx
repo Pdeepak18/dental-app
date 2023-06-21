@@ -49,7 +49,7 @@ const Aboutus = () => {
         </div>
       </div>
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
-        <h1 className="text-sky-600	text-6xl text-blue-800 font-bold">
+        <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           About Us
         </h1>
       </div>
@@ -83,7 +83,7 @@ const Aboutus = () => {
       </div>
 
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
-        <h1 className="text-sky-600	text-6xl text-blue-800 font-bold">
+        <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           Infrastructure
         </h1>
       </div>
@@ -108,7 +108,7 @@ const Aboutus = () => {
         </p>
       </div>
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
-        <h1 className="text-sky-600	text-6xl text-blue-800 font-bold">
+        <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           Client Satisfaction
         </h1>
       </div>
@@ -120,7 +120,7 @@ const Aboutus = () => {
       </div>
 
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
-        <h1 className="text-sky-600	text-6xl text-blue-800 font-bold">
+        <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           Our Products
         </h1>
       </div>
