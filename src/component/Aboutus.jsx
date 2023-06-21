@@ -54,26 +54,26 @@ const Aboutus = () => {
         </h1>
       </div>
 
-      <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl leading-2 md:leading-8">
-        <p className="mb-5 	 ">
+      <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl  ">
+        <p className="mb-5 	 leading-normal ">
           Fraglot is a one of the leading manufacturer and supplier of
           wide-range of highly demanded finest quality Surgical Instruments in
           India.
         </p>
-        <p className="mb-5 ">
+        <p className="mb-5 leading-normal">
           Fraglot offers diverse range of hair transplant instruments and
           products to help and assist specialist surgeons in hair restoration
           surgery making us most popular surgical instruments brand in the
           market.
         </p>
-        <p className="mb-5">
+        <p className="mb-5 leading-normal">
           At Fraglot Surgicals, we design and precision manufacture these
           instruments for surgical surgeons to greatly improve patient results
           and increase overall efficiency for maximum usability and the highest
           end results available today. As a result, we are one of the fastest-
           growing companies in the field of surgery instruments.
         </p>
-        <p className="mb-5 ">
+        <p className="mb-5 leading-normal">
           {" "}
           The Fraglot Surgicals tools line helps guarantee numerous successful
           procedures that medical surgeons and their patients takes pride to
@@ -89,19 +89,19 @@ const Aboutus = () => {
       </div>
 
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl leading-2 md:leading-8">
-        <p className="mb-1 	 ">Instruments Wide-ranging Applications</p>
-        <p className="mb-1 ">
+        <p className="mb-1 	 leading-normal">Instruments Wide-ranging Applications</p>
+        <p className="mb-1 leading-normal">
           You can select from a vast assortment of instruments products, such as
           the Dermojet, Derma blade, and more, which we provide for various
           medical applications. Our instruments and equipment are used for
           procedures, such as Dermabrasion, Liposuction, Skin Grafting, and
           Micropigmentation. Physicians from various fields use our products.
         </p>
-        <p className="mb-1 font-bold opacity-90">Some fields include:</p>
-        <p className="mb-1 "> - Dermatology</p>
-        <p className="mb-1 ">- Plastic Surgery</p>
-        <p className="mb-4 "> - Cosmetic Surgery</p>
-        <p className="mb-6 	 ">
+        <p className="mb-1 font-bold opacity-90 leading-normal">Some fields include:</p>
+        <p className="mb-1 leading-normal"> - Dermatology</p>
+        <p className="mb-1 leading-normal">- Plastic Surgery</p>
+        <p className="mb-4 leading-normal"> - Cosmetic Surgery</p>
+        <p className="mb-6 	leading-normal ">
           All the instruments and equipment that we make available to you are
           passed through a Certified Quality Management System, as per ISO 13485
           and ISO 9001.
@@ -113,7 +113,7 @@ const Aboutus = () => {
         </h1>
       </div>
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10 md:pl-[60px] text-xl leading-2 md:leading-8">
-        <p className="mb-2 	 ">
+        <p className="mb-2 	leading-normal ">
           Our organization has adopted various measures that have enabled us to
           attain maximum level of client satisfaction.
         </p>
@@ -132,7 +132,7 @@ const Aboutus = () => {
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
           <div>
-            <p className="mb-2 	 ">
+            <p className="mb-2 	 leading-normal">
               {" "}
               <span className="font-bold opacity-100">
                 {" "}
@@ -162,7 +162,7 @@ const Aboutus = () => {
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
           <div>
-            <p className="mb-2 	 ">
+            <p className="mb-2 	 leading-normal">
               {" "}
               <span className="font-bold opacity-100">
                 Micro Surgery Instruments &nbsp;&nbsp;
@@ -285,7 +285,7 @@ const Aboutus = () => {
         </div>
       </div>
 
-      <div className="benefits extra-margin flex flex-col  md:flex-row justify-center gap-[150px]">
+      <div className="benefits-about extra-margin flex flex-col  md:flex-row justify-center md:gap-[150px]">
         <div className="benefits-single">
           <img src={quality} alt="Quality" className="benefits-quality" />
           <h4 className="benefits-head">Best Quality</h4>

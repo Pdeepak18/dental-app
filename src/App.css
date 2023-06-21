@@ -198,6 +198,12 @@ Box::backdrop {
   background-color: var(--card-bg);
   margin-bottom: 4rem;
 }
+.benefits-about {
+  margin-top: 70px;
+  padding: 3rem 0 ;
+  background-color: var(--card-bg);
+  margin-bottom: 4rem;
+}
 
 .benefits-single {
   width: 250px;
