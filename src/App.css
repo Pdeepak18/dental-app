@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Pacifico&family=Poppins:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Pacifico&family=Poppins:wght@500&display=swap');
 :root {
   --gray: #4f4f4f;
   --card-bg: #f3f3f3;
+}
+
+body{
+  /* font-family: 'Lato', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+font-family: 'Poppins', sans-serif;
 }
 .extra-margin {
   margin-top: 10rem;

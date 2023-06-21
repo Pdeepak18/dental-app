@@ -136,7 +136,7 @@ export default function Ourproducts() {
         Our Product Range{" "}
       </h1>
       <div className="about1  px-5 md:px-20 w-full">
-        <p className="text-[14px] md:text-lg text-justify font-bold	 font-poppins ">
+        <p className="text-[14px] md:text-lg text-justify 	 font-poppins ">
           Established in the year 2018 we, "FRAGLOT", are a well known name
           engaged in manufacturing and supplying an array of Surgical
           Instruments. Our products are accepted and appreciated for features
@@ -144,7 +144,7 @@ export default function Ourproducts() {
           We have been able to create a niche in the domain by providing
           international quality products to our customers.
         </p>
-        <p className=" text-[14px] text-justify md:text-lg mt-10  font-bold ">
+        <p className=" text-[14px] text-justify md:text-lg mt-10  font-poppins ">
           We are backed by a state-of-the-art manufacturing facility, which
           helps us in meeting the bulk requirements of our customers within the
           stipulated time frame. It is installed with latest technology and

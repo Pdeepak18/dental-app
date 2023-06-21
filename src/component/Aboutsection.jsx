@@ -27,14 +27,14 @@ const Aboutsection = () => {
       {/* right description */}
       <div className=" md:w-[50%]">
         <div className=" flex flex-col mt-10">
-          <h3 className="text-center text-xl font-bold	">
+          <h3 className="text-center text-xl font-bold	bt">
             ABOUT FRAGLOT SURGICAL WORKS
           </h3>
           <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-20"></div>
         </div>
 
         <div className="about ">
-          <p className="text-xl text-justify font-bold	 font-poppins smll-font ">
+          <p className="text-xl text-justify 	 font-poppins smll-font ">
             Established in the year 2018 we, "FRAGLOT", are a well
             known name engaged in manufacturing and supplying an array of
             Surgical Instruments. Our products are accepted and appreciated for
@@ -42,7 +42,7 @@ const Aboutsection = () => {
             functioning. We have been able to create a niche in the domain by
             providing international quality products to our customers.
           </p>
-          <p className="text-justify text-xl mt-10  font-bold smll-font">
+          <p className="text-justify text-xl mt-10 font-poppins  smll-font">
             We are backed by a state-of-the-art manufacturing facility, which
             helps us in meeting the bulk requirements of our customers within
             the stipulated time frame. It is installed with latest technology
