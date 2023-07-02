@@ -11,12 +11,12 @@ function App() {
     <div className="">
      
      <Routes>
-          <Route path="/" element={<Home />} />
+          <Route  index path="/" element={<Home />} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/ourproducts" element={<Ourproducts />} />
-        
           <Route path="/contactus" element={<Contactus />} />
        </Routes>
+       
      
 
     </div>

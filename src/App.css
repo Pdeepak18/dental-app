@@ -274,5 +274,52 @@ Box::backdrop {
     font-size: 0.7rem;
     color: var(--gray);
   }
- 
+
+  .tbh{
+    width: 150px;
+    
+  }
+
+  .tleft{
+ padding: 10px;
+  }
+
+  table,thead,th,td,tr{
+   font-size: 10px;
+  }
+
+
+}
+
+
+table,thead,th,td,tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* text-align: center; */
+  
+
+}
+
+.tleft{
+  background-color: var(--card-bg);
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 185px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+.tright{
+  padding-left: 0.8rem;
+}
+
+.tb ul{
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
 }

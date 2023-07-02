@@ -8,6 +8,7 @@ import dt from "../images/download.png";
 import waran from "../images/waran.7a6416166ed3df4c00af.png";
 import { Link } from "react-router-dom";
 import { RxDot } from "react-icons/rx";
+import "../App.css";
 const Aboutus = () => {
   return (
     <div>
@@ -89,7 +90,9 @@ const Aboutus = () => {
       </div>
 
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl leading-2 md:leading-8">
-        <p className="mb-1 	 leading-normal text-left">Instruments Wide-ranging Applications</p>
+        <p className="mb-1 	 leading-normal text-left">
+          Instruments Wide-ranging Applications
+        </p>
         <p className="mb-1 leading-normal">
           You can select from a vast assortment of instruments products, such as
           the Dermojet, Derma blade, and more, which we provide for various
@@ -97,7 +100,9 @@ const Aboutus = () => {
           procedures, such as Dermabrasion, Liposuction, Skin Grafting, and
           Micropigmentation. Physicians from various fields use our products.
         </p>
-        <p className="mb-1 font-bold opacity-90 leading-normal">Some fields include:</p>
+        <p className="mb-1 font-bold opacity-90 leading-normal">
+          Some fields include:
+        </p>
         <p className="mb-1 leading-normal"> - Dermatology</p>
         <p className="mb-1 leading-normal">- Plastic Surgery</p>
         <p className="mb-4 leading-normal"> - Cosmetic Surgery</p>
@@ -283,6 +288,59 @@ const Aboutus = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
+        <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
+          Packaging / Payment and Shipment Details
+        </h1>
+      </div>
+
+      <div className=" opacity-80   text-justify bt tbh	px-6  md:mx-14 mt-10  md:pl-[60px] md:text-xl  md:leading-8 tb">
+        <table className="w-2/4  md:w-3/4 tbh">
+          <tbody>
+            <tr >
+              <td className="tleft ">Packaging :</td>
+              <td>
+                <ul >
+                  <li>
+                    Plastic Box / Wooden box / Bubble wrapped / Customized
+                  </li>
+                  <li>Safe and compact packaging</li>
+                  <li>Final Checking Before Dispatch</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="tleft">Payment mode :</td>
+              <td className="tright"> T/T (Bank Transfer) / Cash / Cheque / DD</td>
+            </tr>
+
+            <tr>
+              <td className="tleft">Estimated Delivery Time :</td>
+              <td>
+                <ul>
+                  <li>Min: Next day Delivery by Bluedart / DTDC</li>
+                  <li>Max: Upto 5 to 10 working days</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="tleft">Bank Details :</td>
+              <td className="tright">
+             Bank name- ICICI BANK, <br /> A/C NO. - 039301004185, <br />IFSC CODE -
+                ICIC0000393, <br /> City - Mumbai
+              </td>
+            </tr>
+
+            <tr>
+              <td className="tleft">GST No :</td>
+              <td className="tright">  27CREPM4118E1ZZ</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <div className="benefits-about extra-margin flex flex-col  md:flex-row justify-center md:gap-[150px]">
