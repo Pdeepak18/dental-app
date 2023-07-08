@@ -295,8 +295,8 @@ const Aboutus = () => {
           Packaging / Payment and Shipment Details
         </h1>
       </div>
-
-      <div className=" opacity-80   text-justify bt tbh	px-6  md:mx-14 mt-10  md:pl-[60px] md:text-xl  md:leading-8 tb">
+{/* web */}
+      <div className=" hidden md:block opacity-80   text-justify bt tbh	px-6  md:mx-14 mt-10  md:pl-[60px] md:text-xl  md:leading-8 tb">
         <table className="w-2/4  md:w-3/4 tbh">
           <tbody>
             <tr >
@@ -342,7 +342,53 @@ const Aboutus = () => {
           </tbody>
         </table>
       </div>
+{/* mobile */}
+        <div className="opacity-80 p-3 block md:hidden">
+        <table className="w-3/4 tbw">
+          <tbody>
+            <tr >
+              <td className="tleft ">Packaging :</td>
+              <td>
+                <ul >
+                  <li>
+                    Plastic Box / Wooden box / Bubble wrapped / Customized
+                  </li>
+                  <li>Safe and compact packaging</li>
+                  <li>Final Checking Before Dispatch</li>
+                </ul>
+              </td>
+            </tr>
 
+            <tr>
+              <td className="tleft">Payment mode :</td>
+              <td className="tright"> T/T (Bank Transfer) / Cash / Cheque / DD</td>
+            </tr>
+
+            <tr>
+              <td className="tleft">Estimated Delivery Time :</td>
+              <td>
+                <ul>
+                  <li>Min: Next day Delivery by Bluedart / DTDC</li>
+                  <li>Max: Upto 5 to 10 working days</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="tleft">Bank Details :</td>
+              <td className="tright">
+             Bank name- ICICI BANK, <br /> A/C NO. - 039301004185, <br />IFSC CODE -
+                ICIC0000393, <br /> City - Mumbai
+              </td>
+            </tr>
+
+            <tr>
+              <td className="tleft">GST No :</td>
+              <td className="tright">  27CREPM4118E1ZZ</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
       <div className="benefits-about extra-margin flex flex-col  md:flex-row justify-center md:gap-[150px]">
         <div className="benefits-single">
           <img src={quality} alt="Quality" className="benefits-quality" />

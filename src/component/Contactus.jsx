@@ -125,7 +125,7 @@ const Contactus = () => {
                         Email Address
                       </h4>
                       <p className="text-body-color text-base">
-                        info@yourdomain.com
+                      fraglot02@gmail.com
                       </p>
                     </div>
                   </div>
