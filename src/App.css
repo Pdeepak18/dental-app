@@ -308,7 +308,21 @@ table,thead,th,td,tr{
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.trightm{
+  background-color: var(--card-bg);
+  font-weight: bold;
+  padding-left: 5px;
+    
+}
 
+.tleftm{
+  /* background-color: var(--card-bg);
+  font-weight: bold; */
+  padding-left: 10px;
+  /* padding-right: 15px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
 .tright{
   padding-left: 0.8rem;

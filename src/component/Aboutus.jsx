@@ -343,12 +343,12 @@ const Aboutus = () => {
         </table>
       </div>
 {/* mobile */}
-        <div className="opacity-80 p-3 block  md:hidden">
+        <div className="opacity-80 p-3 block ml-5 md:hidden ">
         <table className="w-3/4 tbw">
           <tbody>
             <tr >
-              <td className="tleft ">Packaging :</td>
-              <td >
+              <td className="trightm">Packaging :</td>
+              <td className="tleftm ">
                 <ul >
                   <li>
                     Plastic Box / Wooden box / Bubble wrapped / Customized
@@ -360,13 +360,13 @@ const Aboutus = () => {
             </tr>
 
             <tr>
-              <td className="tleft">Payment mode :</td>
-              <td className=""> T/T (Bank Transfer) / Cash / Cheque / DD</td>
+              <td className="trightm">Payment mode :</td>
+              <td className="tleftm"> T/T (Bank Transfer) / Cash / Cheque / DD</td>
             </tr>
 
             <tr>
-              <td className="tleft">Estimated Delivery Time :</td>
-              <td>
+              <td className="trightm">Estimated Delivery Time :</td>
+              <td className="tleftm">
                 <ul>
                   <li>Min: Next day Delivery by Bluedart / DTDC</li>
                   <li>Max: Upto 5 to 10 working days</li>
@@ -375,16 +375,16 @@ const Aboutus = () => {
             </tr>
 
             <tr>
-              <td className="tleft">Bank Details :</td>
-              <td className="">
+              <td className="trightm">Bank Details :</td>
+              <td className="tleftm">
              Bank name- ICICI BANK, <br /> A/C NO. - 039301004185, <br />IFSC CODE -
                 ICIC0000393, <br /> City - Mumbai
               </td>
             </tr>
 
             <tr>
-              <td className="tleft">GST No :</td>
-              <td className="">  27CREPM4118E1ZZ</td>
+              <td className="trightm">GST No :</td>
+              <td className="tleftm">  27CREPM4118E1ZZ</td>
             </tr>
           </tbody>
         </table>
