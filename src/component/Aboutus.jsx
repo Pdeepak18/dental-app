@@ -290,7 +290,7 @@ const Aboutus = () => {
         </div>
       </div>
 
-      <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
+      <div className="  md:mx-14 mt-14 px-6 md:pl-14 res ">
         <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           Packaging / Payment and Shipment Details
         </h1>
@@ -343,8 +343,8 @@ const Aboutus = () => {
         </table>
       </div>
 {/* mobile */}
-        <div className="opacity-80 p-3 block ml-5 md:hidden ">
-        <table className="w-3/4 tbw">
+        <div className="opacity-80 p-3 block  md:hidden ">
+        <table className="w-full tbw">
           <tbody>
             <tr >
               <td className="trightm">Packaging :</td>
