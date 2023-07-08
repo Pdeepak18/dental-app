@@ -343,12 +343,12 @@ const Aboutus = () => {
         </table>
       </div>
 {/* mobile */}
-        <div className="opacity-80 p-3 block md:hidden">
+        <div className="opacity-80 p-3 block  md:hidden">
         <table className="w-3/4 tbw">
           <tbody>
             <tr >
               <td className="tleft ">Packaging :</td>
-              <td>
+              <td >
                 <ul >
                   <li>
                     Plastic Box / Wooden box / Bubble wrapped / Customized
@@ -361,7 +361,7 @@ const Aboutus = () => {
 
             <tr>
               <td className="tleft">Payment mode :</td>
-              <td className="tright"> T/T (Bank Transfer) / Cash / Cheque / DD</td>
+              <td className=""> T/T (Bank Transfer) / Cash / Cheque / DD</td>
             </tr>
 
             <tr>
@@ -376,7 +376,7 @@ const Aboutus = () => {
 
             <tr>
               <td className="tleft">Bank Details :</td>
-              <td className="tright">
+              <td className="">
              Bank name- ICICI BANK, <br /> A/C NO. - 039301004185, <br />IFSC CODE -
                 ICIC0000393, <br /> City - Mumbai
               </td>
@@ -384,7 +384,7 @@ const Aboutus = () => {
 
             <tr>
               <td className="tleft">GST No :</td>
-              <td className="tright">  27CREPM4118E1ZZ</td>
+              <td className="">  27CREPM4118E1ZZ</td>
             </tr>
           </tbody>
         </table>
