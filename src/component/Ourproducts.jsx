@@ -18,6 +18,7 @@ import Footer from "./Footer";
 import img from "../images/micro-surgery-instruments-hd.jpg";
 import { Carousel, Typography, Button } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import prod_1 from "../images/prod-1.jpg";
 import prod_2 from "../images/prod-2.jpg";
 import prod_3 from "../images/prod-3.jpg";
@@ -88,6 +89,9 @@ var temp2 = 0;
 const defaultTheme = createTheme();
 
 export default function Ourproducts() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [open, setOpen] = React.useState(false);
   const handleOpen = (card) => {
     setOpen(true);

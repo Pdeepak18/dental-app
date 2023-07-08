@@ -1,12 +1,16 @@
 import Navbar from "./Navbar";
 import React from "react";
 import Footer from "./Footer";
-import { useRef } from "react";
+import { useRef,useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contactus = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const form = useRef();
 
   const showToastMessage = () => {

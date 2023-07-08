@@ -11,10 +11,10 @@ const LINKS = [
     title: "Company",
     items: [(<a href="/aboutus"><Link to="/aboutus">About Us</Link></a> ), (<a href="/ourproducts"><Link to="/ourproducts">Our Products</Link></a> ), (<a href="/contactus"><Link to="/contactus">Contact Us</Link></a> ), ""],
   },
-  {
-    title: "Resource",
-    items: ["Blog", "Newsletter", "Events", "Help center"],
-  },
+  // {
+  //   title: "Resource",
+  //   items: ["Blog", "Newsletter", "Events", "Help center"],
+  // },
 ];
  
 const currentYear = new Date().getFullYear();
@@ -23,13 +23,13 @@ export default function Footer() {
   return (
     <footer className="relative w-full p-10 ">
       <div className="mx-auto w-full max-w-7xl px-8">
-        <div className="grid grid-cols-1 justify-between gap-3 md:grid-cols-2">
+        <div className="grid grid-cols-1 justify-between gap-10 md:gap-96 md:grid-cols-2">
           <Typography variant="h3" className="mb-6 ">
           
           <img src={logo} alt="" width="280px"/>
           
           </Typography>
-          <div className="grid md:grid-cols-3 justify-between gap-5 ">
+          <div className="grid md:grid-cols-2 justify-between gap-16 ">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
                 <Typography

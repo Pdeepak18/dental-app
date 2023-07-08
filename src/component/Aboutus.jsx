@@ -9,8 +9,13 @@ import waran from "../images/waran.7a6416166ed3df4c00af.png";
 import { Link } from "react-router-dom";
 import { RxDot } from "react-icons/rx";
 import "../App.css";
+import { useEffect } from "react";
 const Aboutus = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
+
     <div>
       <Navbar />
       <div className="md:rounded-xl h-[200px] md:h-[250px]">
