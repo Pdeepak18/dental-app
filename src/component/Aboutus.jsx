@@ -15,14 +15,15 @@ import cat_3 from "../images/cat-3-removebg-preview.png";
 import cat_4 from "../images/cat-4.jpg";
 import cat_5 from "../images/cat-5.jpg";
 import { useEffect } from "react";
+
 const Aboutus = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   return (
     <div>
       <Navbar />
-      <div className="md:rounded-xl h-[200px] md:h-[250px]">
+      <div className="md:rounded-xl h-[200px] md:h-[250px]" id="/">
         <div className="relative h-full w-full">
           <img
             src={img}
@@ -68,9 +69,6 @@ const Aboutus = () => {
 
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl  ">
         <p className="mb-5 	 leading-normal ">
-          {/* Fraglot is a one of the leading manufacturer and supplier of
-          wide-range of highly demanded finest quality Surgical Instruments in
-          India. */}
           Established in the year 2018 we, "FRAGLOT INDUSTRIES", are a well
           known name engaged in manufacturing and supplying an array of Surgical
           Instruments. Our products are accepted and appreciated for designed
@@ -78,10 +76,6 @@ const Aboutus = () => {
           only in products but also in our lives.
         </p>
         <p className="mb-5 leading-normal">
-          {/* Fraglot offers diverse range of hair transplant instruments and
-          products to help and assist specialist surgeons in hair restoration
-          surgery making us most popular surgical instruments brand in the
-          market. */}
           Leader of our segments in the ophthalmic industry y. Ophthalmic
           instruments include: Forceps - Serrated and untoothed forceps for
           holding tissue, such as the iris, to restrict movement during
@@ -114,31 +108,12 @@ const Aboutus = () => {
 
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl leading-2 md:leading-8">
         <p className="mb-1 	 leading-normal text-left">
-          {/* Instruments Wide-ranging Applications */}
           We possess a highly advanced manufacturing facility run by a team of
           immensely experienced and qualified personnel. We lays a special
           emphasis on the packaging of our products and deliver them safely to
           the client. Packaging our products in specially designed customized
           contains, we ensure that there is no damage to the products.
         </p>
-        {/* <p className="mb-1 leading-normal">
-          You can select from a vast assortment of instruments products, such as
-          the Dermojet, Derma blade, and more, which we provide for various
-          medical applications. Our instruments and equipment are used for
-          procedures, such as Dermabrasion, Liposuction, Skin Grafting, and
-          Micropigmentation. Physicians from various fields use our products.
-        </p>
-        <p className="mb-1 font-bold opacity-90 leading-normal">
-          Some fields include:
-        </p>
-        <p className="mb-1 leading-normal"> - Dermatology</p>
-        <p className="mb-1 leading-normal">- Plastic Surgery</p>
-        <p className="mb-4 leading-normal"> - Cosmetic Surgery</p>
-        <p className="mb-6 	leading-normal ">
-          All the instruments and equipment that we make available to you are
-          passed through a Certified Quality Management System, as per ISO 13485
-          and ISO 9001.
-        </p> */}
       </div>
 
       {/* Mission */}
@@ -181,17 +156,21 @@ const Aboutus = () => {
 
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10 md:pl-[60px] grid  grid-cols-1 md:grid-cols-2 text-xl leading-2 md:leading-8">
         <div className="cat">
-        <p className="text-red-800 text-2xl md:text-3xl">MICRO NEEDLE HOLDER</p>
+          <p className="text-red-800 text-2xl md:text-3xl">
+            MICRO NEEDLE HOLDER
+          </p>
           <ul class="dashed">
             <li>MICRO NEEDLE HOLDER</li>
-            <li>CURVED  CASTROVIEJO NEEDLE HOLDER</li>
+            <li>CURVED CASTROVIEJO NEEDLE HOLDER</li>
             <li>STRAIGHT CASTROVIEJO NEEDLE HOLDER</li>
             <li>NEEDLE HOLDER</li>
             <li>BARRAQUER'S NEEDLE HOLDER</li>
           </ul>
         </div>
         <div className="cat">
-        <p className="text-red-800 text-2xl md:text-3xl">SURGERY INSTRUMENTS</p>
+          <p className="text-red-800 text-2xl md:text-3xl">
+            SURGERY INSTRUMENTS
+          </p>
           <ul class="dashed">
             <li>PUNCHES</li>
             <li>BONE PUNCH</li>
@@ -201,26 +180,24 @@ const Aboutus = () => {
           </ul>
         </div>
         <div className="cat">
-        <p className="text-red-800 text-2xl md:text-3xl">MICRO FORCEP</p>
+          <p className="text-red-800 text-2xl md:text-3xl">MICRO FORCEP</p>
           <ul class="dashed">
             <li>ROUND BODY FORCEP</li>
             <li>MICRO FORCEP</li>
             <li>ARTERY FORCEP</li>
             <li>IRIS FORCEP</li>
-            
           </ul>
         </div>
-        
+
         <div className="cat">
-        <p className="text-red-800 text-2xl md:text-3xl">SCISSORS</p>
+          <p className="text-red-800 text-2xl md:text-3xl">SCISSORS</p>
           <ul class="dashed">
             <li>STRAIGHT MICRO SCISSORS</li>
-            <li>CURVED  SCISSORS</li>
+            <li>CURVED SCISSORS</li>
             <li>VANNAS' SCISSORS</li>
             <li>CORNEAL SPRING SCISSORS</li>
           </ul>
         </div>
-       
       </div>
 
       {/* our Products */}
@@ -268,7 +245,6 @@ const Aboutus = () => {
             />
           </div>
           <div className="ml-5 " id="vitreoretina">
-            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
             <img
               src={cat_1}
               alt=""
@@ -291,18 +267,7 @@ const Aboutus = () => {
               structures in the eye called the retina and the vitreous. The
               retina is the light-sensitive layer in the back of the eye that
               focuses images and transmits that information to the brain via the
-              optic nerve
-              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
-              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
-              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
-              Thick body implanting forceps, Thick body extracting forceps,
-              Adson hair implanting forceps, Adson hair extracting forceps,
-              Adson brown hair implanting forceps, Adson brown hair extracting
-              forceps, Hair Transplant Graft collector, Hair Transplant graft
-              Chilling device, Hair Transplant Micro motor and hand piece, Hair
-              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
-              storage box, Hair Transplant Silicon pillow, Hair transplant
-              chair, Hair Transplant LED OT lights) */}
+              optic nerve.
             </p>
           </div>
         </div>
@@ -317,7 +282,6 @@ const Aboutus = () => {
             />
           </div>
           <div className="ml-5" id="OPHTHALMICCANNULAS">
-            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
             <img
               src={cat_2}
               alt=""
@@ -339,18 +303,7 @@ const Aboutus = () => {
               substances during an ophthalmic surgery. Ophthalmic instruments
               are used by a variety of individuals who are concerned with the
               health and performance of the eyes as organs of the body
-              cooperating binocularly as optical systems
-              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
-              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
-              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
-              Thick body implanting forceps, Thick body extracting forceps,
-              Adson hair implanting forceps, Adson hair extracting forceps,
-              Adson brown hair implanting forceps, Adson brown hair extracting
-              forceps, Hair Transplant Graft collector, Hair Transplant graft
-              Chilling device, Hair Transplant Micro motor and hand piece, Hair
-              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
-              storage box, Hair Transplant Silicon pillow, Hair transplant
-              chair, Hair Transplant LED OT lights) */}
+              cooperating binocularly as optical systems.
             </p>
           </div>
         </div>
@@ -365,7 +318,6 @@ const Aboutus = () => {
             />
           </div>
           <div className="ml-5" id="FLUIDMANAGEMENTDEVICES">
-            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
             <img
               src={cat_3}
               alt=""
@@ -386,17 +338,6 @@ const Aboutus = () => {
               enterally since this is the natural route of fluid intake.
               However, many patients who are sick enough to need admission to
               the hospital might have a reason they cannot tolerate oral intake.
-              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
-              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
-              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
-              Thick body implanting forceps, Thick body extracting forceps,
-              Adson hair implanting forceps, Adson hair extracting forceps,
-              Adson brown hair implanting forceps, Adson brown hair extracting
-              forceps, Hair Transplant Graft collector, Hair Transplant graft
-              Chilling device, Hair Transplant Micro motor and hand piece, Hair
-              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
-              storage box, Hair Transplant Silicon pillow, Hair transplant
-              chair, Hair Transplant LED OT lights) */}
             </p>
           </div>
         </div>
@@ -411,7 +352,6 @@ const Aboutus = () => {
             />
           </div>
           <div className="ml-5" id="Needleholder">
-            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
             <img
               src={cat_4}
               alt=""
@@ -431,17 +371,6 @@ const Aboutus = () => {
               doctors and surgeons to hold and push a suturing needle when
               performing wound closure, ligation and other surgical procedures
               that require re-anastomosis.
-              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
-              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
-              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
-              Thick body implanting forceps, Thick body extracting forceps,
-              Adson hair implanting forceps, Adson hair extracting forceps,
-              Adson brown hair implanting forceps, Adson brown hair extracting
-              forceps, Hair Transplant Graft collector, Hair Transplant graft
-              Chilling device, Hair Transplant Micro motor and hand piece, Hair
-              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
-              storage box, Hair Transplant Silicon pillow, Hair transplant
-              chair, Hair Transplant LED OT lights) */}
             </p>
           </div>
         </div>
@@ -456,7 +385,6 @@ const Aboutus = () => {
             />
           </div>
           <div className="ml-5" id="AKAHOSHIPRECHOPPER">
-            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
             <img
               src={cat_5}
               alt=""
@@ -477,148 +405,9 @@ const Aboutus = () => {
               phacoemulsification energy. It is inserted into the eye to
               fragment the nucleus and can also be used to rotate the lens
               nucleus with minimal zonular stress.
-              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
-              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
-              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
-              Thick body implanting forceps, Thick body extracting forceps,
-              Adson hair implanting forceps, Adson hair extracting forceps,
-              Adson brown hair implanting forceps, Adson brown hair extracting
-              forceps, Hair Transplant Graft collector, Hair Transplant graft
-              Chilling device, Hair Transplant Micro motor and hand piece, Hair
-              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
-              storage box, Hair Transplant Silicon pillow, Hair transplant
-              chair, Hair Transplant LED OT lights) */}
             </p>
           </div>
         </div>
-
-        {/* prod-2 */}
-        {/* <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-2 	 leading-normal">
-              {" "}
-              <span className="font-bold opacity-100">
-                Micro Surgery Instruments &nbsp;&nbsp;
-              </span>
-              (Micro Scissor, Micro Scissors Round body, Micro Scissors Flat
-              Body, Micro Needle holder, Needle holder round body, Needle holder
-              Flat Body, Micro forceps, Round Body Micro forceps, Jeweller micro
-              forceps, Micro Groove forceps, 3 hole design micro forceps,
-              Castroviezo Micro forceps, Gerald micro forceps, Gomel micro
-              forceps, Adson micro forceps, Adson brown micro forceps, Vessel
-              dilator micro forceps, Vascular Atraumatic forceps, Atraumatic
-              forceps Round body, Atraumatic forceps Flat body, Vascular Bulldog
-              clamp, Microvascular Clamps for vein, Microvascular Clamps for
-              artery, Tubal clamps)
-            </p>
-          </div>
-        </div> */}
-        {/* prod-3 */}
-        {/* <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-2">
-              {" "}
-              <span className="font-bold opacity-100">
-                Dermatology Instruments &nbsp;&nbsp;
-              </span>
-            </p>
-          </div>
-        </div> */}
-        {/* prod-4 */}
-        {/* <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-2">
-              {" "}
-              <span className="font-bold opacity-100">
-                Liposuction Canula&nbsp;&nbsp;
-              </span>
-            </p>
-          </div>
-        </div> */}
-        {/* prod-5 */}
-        {/* <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-2">
-              {" "}
-              <span className="font-bold opacity-100">
-                Plastic Surgery Instruments &nbsp;&nbsp;
-              </span>
-            </p>
-          </div>
-        </div> */}
-        {/* prod-6 */}
-        {/* <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-2">
-              {" "}
-              <span className="font-bold opacity-100">
-                {" "}
-                Maxillofacial Instruments &nbsp;&nbsp;
-              </span>
-            </p>
-          </div>
-        </div> */}
-
-        {/* prod-7 */}
-        {/* <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-2">
-              {" "}
-              <span className="font-bold opacity-100">
-                Rhinoplasty Instruments &nbsp;&nbsp;
-              </span>
-            </p>
-          </div>
-        </div> */}
-
-        {/* prod-8 */}
-        {/* <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-2">
-              {" "}
-              <span className="font-bold opacity-100">
-                Cleft and Palette &nbsp;&nbsp;
-              </span>
-            </p>
-          </div>
-        </div> */}
-
-        {/* prod-9 */}
-        {/* <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-0">
-              {" "}
-              <span className="font-bold opacity-100">
-                {" "}
-                Neurosurgery Instruments &nbsp;&nbsp;
-              </span>
-            </p>
-          </div>
-        </div>   */}
       </div>
 
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res ">

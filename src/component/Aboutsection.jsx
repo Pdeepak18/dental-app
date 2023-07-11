@@ -50,21 +50,23 @@ const Aboutsection = () => {
             cannulas
           </p>
 
-          <button className="bg-green-400 w-full mt-6 md:w-fit flex items-center justify-center md:justify-start text-white py-[14px] px-[18px] rounded-md font-inherit font-bold hover:bg-red-400 transition-all duration-200">
-            <a href="/aboutus" className="text-xl">
-              <Link to="/aboutus">Know More</Link>
-            </a>
-            <svg
-              viewBox="0 0 24 24"
-              focusable="false"
-              className="w-[14px] h-[14px] ml-2 my-1"
-            >
-              <path
-                fill="currentColor"
-                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-              ></path>
-            </svg>
-          </button>
+          <Link to="/aboutus">
+            <button className="bg-green-400 w-full mt-6 md:w-fit flex items-center justify-center md:justify-start text-white py-[14px] px-[18px] rounded-md font-inherit font-bold hover:bg-red-400 transition-all duration-200">
+              <a href="/aboutus" className="text-xl">
+                Know More
+              </a>
+              <svg
+                viewBox="0 0 24 24"
+                focusable="false"
+                className="w-[14px] h-[14px] ml-2 my-1"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                ></path>
+              </svg>
+            </button>
+          </Link>
         </div>
       </div>
     </section>

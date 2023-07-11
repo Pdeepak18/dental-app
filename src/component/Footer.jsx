@@ -1,40 +1,64 @@
 import { Typography } from "@material-tailwind/react";
-import logo from '../images/logo_3.png';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import logo from "../images/logo_3.png";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const LINKS = [
   {
     title: "Product",
-    items: [(<HashLink smooth to='/aboutus/#vitreoretina' > VITREO RETINA </HashLink> ), 
-    (<HashLink smooth to='/aboutus/#OPHTHALMICCANNULAS' > OPHTHALMIC CANNULAS</HashLink> ), 
-    (<HashLink smooth to='/aboutus/#FLUIDMANAGEMENTDEVICES' > FLUID MANAGEMENT DEVICES </HashLink> ),
-    (<HashLink smooth to='/aboutus/#Needleholder' > Needle holder </HashLink> ),
-    (<HashLink smooth to='/aboutus/#AKAHOSHIPRECHOPPER' > AKAHOSHI PRE-CHOPPER </HashLink> )],
+    items: [
+      <HashLink smooth to="/aboutus/#vitreoretina">
+        {" "}
+        VITREO RETINA{" "}
+      </HashLink>,
+      <HashLink smooth to="/aboutus/#OPHTHALMICCANNULAS">
+        {" "}
+        OPHTHALMIC CANNULAS
+      </HashLink>,
+      <HashLink smooth to="/aboutus/#FLUIDMANAGEMENTDEVICES">
+        {" "}
+        FLUID MANAGEMENT DEVICES{" "}
+      </HashLink>,
+      <HashLink smooth to="/aboutus/#Needleholder">
+        {" "}
+        Needle holder{" "}
+      </HashLink>,
+      <HashLink smooth to="/aboutus/#AKAHOSHIPRECHOPPER">
+        {" "}
+        AKAHOSHI PRE-CHOPPER{" "}
+      </HashLink>,
+    ],
   },
   {
     title: "Company",
-    items: [(<a href="/aboutus"><Link to="/aboutus">ABOUT US</Link></a> ), 
-    (<a href="/ourproducts"><Link to="/ourproducts">OUR PRODUCTS</Link></a> ), 
-    (<a href="/contactus"><Link to="/contactus">CONTACT US</Link></a> ), ""],
+    items: [
+      <a href="/aboutus">
+        <Link to="/aboutus"><HashLink smooth to="/aboutus/#/">ABOUT US</HashLink></Link>
+      </a>,
+      <a href="/ourproducts">
+        <Link to="/ourproducts">OUR PRODUCTS</Link>
+      </a>,
+      <a href="/contactus">
+        <Link to="/contactus">CONTACT US</Link>
+      </a>,
+      "",
+    ],
   },
   // {
   //   title: "Resource",
   //   items: ["Blog", "Newsletter", "Events", "Help center"],
   // },
 ];
- 
+
 const currentYear = new Date().getFullYear();
- 
+
 export default function Footer() {
   return (
     <footer className="relative w-full p-10 ">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid grid-cols-1 justify-between gap-10 md:gap-76 md:grid-cols-2">
           <Typography variant="h3" className="mb-6 ">
-          
-          <img src={logo} alt="" width="280px"/>
-          
+            <img src={logo} alt="" width="280px" />
           </Typography>
           <div className="grid md:grid-cols-2 justify-between gap-16 ">
             {LINKS.map(({ title, items }) => (
@@ -67,10 +91,13 @@ export default function Footer() {
             variant="small"
             className="mb-4 text-center font-poppins font-normal text-blue-gray-900 md:mb-0"
           >
-            &copy; {currentYear} <a href="https://fraglot.onrender.com/">Fraglot</a>. All
-            Rights Reserved.
+            &copy; {currentYear}{" "}
+            <a href="https://fraglot.onrender.com/">Fraglot</a>. All Rights
+            Reserved.
           </Typography>
-          <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
+
+          {/* social media logo */}
+          {/* <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
             <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
               <svg className="h-7 w-7 footfb" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -95,7 +122,7 @@ export default function Footer() {
               </svg>
             </Typography>
             <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
-            <a href="https://github.com/Pdeepak18/">
+            <a href="">
               <svg className="h-7 w-7 footgithub" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   fill-rule="evenodd"
@@ -108,7 +135,7 @@ export default function Footer() {
             <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
             <img width="30" height="30" className="footdiscord" src="https://img.icons8.com/ios/50/discord-logo--v1.png" alt="discord-logo--v1"/>
             </Typography>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

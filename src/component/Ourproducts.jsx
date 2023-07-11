@@ -28,6 +28,11 @@ import prod_6 from "../images/prod-6.jpg";
 import prod_7 from "../images/prod-7.jpg";
 import prod_8 from "../images/prod-8.jpg";
 import prod_9 from "../images/prod-9.jpg";
+import cat_1 from "../images/cat-1.jpg";
+import cat_2 from "../images/cat-2.jpg";
+import cat_3 from "../images/cat-3-removebg-preview.png";
+import cat_4 from "../images/cat-4.jpg";
+import cat_5 from "../images/cat-5.jpg";
 
 const style = {
   position: "absolute",
@@ -47,7 +52,7 @@ const style2 = {
   // backdrop-filter: "blur(5px)",
 };
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var count = [
   prod_1,
   prod_2,
@@ -58,30 +63,39 @@ var count = [
   prod_7,
   prod_8,
   prod_9,
+  cat_4,
+  cat_5,
+  cat_3,
 ];
 
-const head =["Nasal Rongeur Instruments" ,
-"Weil Blakesley Instruments",
-"Osher Snyder IOL   Instruments",
-"Yasargil Bayonet Tumor Grasping",
-"Titanium Hair Transplant Tweezers",
-"Reusable Arthroscopy Punch Forceps",
-"Frontal Sinus Thru Cut Forceps",
-"Micro Titanium Hair Transplant Tweezers",
-"Laparoscopic New Multi Function Trocar "
-
-]
-const desc =[
+const head = [
+  "Nasal Rongeur Instruments",
+  "Weil Blakesley Instruments",
+  "Osher Snyder IOL   Instruments",
+  "Yasargil Bayonet Tumor Grasping",
+  "Titanium Hair Transplant Tweezers",
+  "Reusable Arthroscopy Punch Forceps",
+  "Frontal Sinus Thru Cut Forceps",
+  "Micro Titanium Hair Transplant Tweezers",
+  "Laparoscopic New Multi Function Trocar ",
+  "Needle holder",
+  "AKAHOSHI PRE-CHOPPER",
+  "FLUID MANAGEMENT DEVICES",
+];
+const desc = [
   "Fraglot offers the best value Nasal Rongeur Instruments in surgical instruments.",
-"Fraglot Surgicals offers the best value Weil Blakesley in surgical instruments.",
-"Fraglot Surgicals offers the best value Osher Snyder IOL Cutting  instrument in surgical instruments.",
-"Fraglot Surgicals offers the best value Yasargil Bayonet Tumor Grasping in surgical instruments.",
-"Fraglot Surgicals offers the best value Titanium Hair Transplant Tweezers in surgical instruments.",
-"Fraglot Surgicals offers the best value Reusable Arthroscopy Punch Forceps in surgical instruments.",
-"Fraglot Surgicals offers the best value Frontal Sinus Thru Cut Forceps in surgical instruments.",
-"Fraglot Surgicals offers the best value Micro Titanium Hair Transplant Tweezers straight in surgical instruments.",
-"Fraglot Surgicals offers the best value Laparoscopic New Multi Function Trocar  in surgical instruments."
-]
+  "Fraglot Surgicals offers the best value Weil Blakesley in surgical instruments.",
+  "Fraglot Surgicals offers the best value Osher Snyder IOL Cutting  instrument in surgical instruments.",
+  "Fraglot Surgicals offers the best value Yasargil Bayonet Tumor Grasping in surgical instruments.",
+  "Fraglot Surgicals offers the best value Titanium Hair Transplant Tweezers in surgical instruments.",
+  "Fraglot Surgicals offers the best value Reusable Arthroscopy Punch Forceps in surgical instruments.",
+  "Fraglot Surgicals offers the best value Frontal Sinus Thru Cut Forceps in surgical instruments.",
+  "Fraglot Surgicals offers the best value Micro Titanium Hair Transplant Tweezers straight in surgical instruments.",
+  "Fraglot Surgicals offers the best value Laparoscopic New Multi Function Trocar  in surgical instruments.",
+  "Fraglot Surgicals offers the best value Needle holder in surgical instruments.",
+  "Fraglot Surgicals offers the best value Akahoshi Pre-Chopper in surgical instruments.",
+  "Fraglot Surgicals offers the best value Fluid Management Devices  in surgical instruments.",
+];
 var temp = 0;
 var temp2 = 0;
 
@@ -90,8 +104,8 @@ const defaultTheme = createTheme();
 
 export default function Ourproducts() {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   const [open, setOpen] = React.useState(false);
   const handleOpen = (card) => {
     setOpen(true);
@@ -100,7 +114,6 @@ export default function Ourproducts() {
 
   const handleClose = () => setOpen(false);
 
-  
   return (
     <>
       <Navbar />
@@ -126,7 +139,15 @@ export default function Ourproducts() {
                 color="white"
                 className="mb-12 opacity-80 smll-font"
               >
-                <p className="italic"><a href="/" className="hover:text-light-blue-900"><Link to="/">Home</Link></a>  /<a href="/" className="hover:text-light-blue-900"><Link to="/ourproducts">Our Products</Link></a></p>
+                <p className="italic">
+                  <a href="/" className="hover:text-light-blue-900">
+                    <Link to="/">Home</Link>
+                  </a>{" "}
+                  /
+                  <a href="/" className="hover:text-light-blue-900">
+                    <Link to="/ourproducts">Our Products</Link>
+                  </a>
+                </p>
               </Typography>
             </div>
           </div>
@@ -168,14 +189,7 @@ export default function Ourproducts() {
         align="center"
         color="text.primary"
         gutterBottom
-      >
-        {/* <div className='w-full'>
-            
-              <p className='mt-8 text-2xl  md:text-4xl'>Our Product List</p> 
-              <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-2"></div>
-
-             </div> */}
-      </Typography>
+      ></Typography>
       <Stack sx={{ pt: 4 }} direction="row" spacing={2} justifyContent="center">
         <Button variant="contained">
           <p className="text-xl">Our Product List</p>{" "}
@@ -206,17 +220,24 @@ export default function Ourproducts() {
                   <Typography gutterBottom variant="h5" component="h2">
                     {head[temp]}
                   </Typography>
-                  <Typography sx={{ margintop:"20px",}} margin-top={4}	className="guide">
-                   {desc[temp]}
+                  <Typography
+                    sx={{ margintop: "20px" }}
+                    margin-top={4}
+                    className="guide"
+                  >
+                    {desc[temp]}
                   </Typography>
                 </CardContent>
                 <CardActions>
-                 
-                  
                   <Button size="small">
                     <Link to="/contactus">
                       {" "}
-                      <p className="text-white"><a href="/contactus"> <Link to="/contactus">Contact Us</Link></a></p>
+                      <p className="text-white">
+                        <a href="/contactus">
+                          {" "}
+                          <Link to="/contactus">Contact Us</Link>
+                        </a>
+                      </p>
                     </Link>
                   </Button>
                 </CardActions>
