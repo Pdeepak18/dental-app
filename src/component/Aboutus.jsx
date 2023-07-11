@@ -16,9 +16,9 @@ import cat_4 from "../images/cat-4.jpg";
 import cat_5 from "../images/cat-5.jpg";
 import { useEffect } from "react";
 const Aboutus = () => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Navbar />
