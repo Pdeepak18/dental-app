@@ -2,7 +2,7 @@ import {React,useEffect,useState} from 'react'
 import logo from '../images/logo_3.png';
 import { MdOutlineFormatListBulleted } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-
+import "../App.css";
 
 
 const Navbar = () => {
@@ -38,6 +38,7 @@ const Navbar = () => {
                   <a href="/ourproducts" className="text-xl"><Link to="/ourproducts">Our Products</Link></a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
                   </li> 
+                  
                   <li className='text-black relative font-inherit py-7 hover:font-bold cursor-pointer transition-all duration-200 text-xl group'> 
                   <a href="/contactus" className="text-xl"> <Link to="/contactus">Contact Us</Link></a>
                   <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div>
@@ -61,7 +62,8 @@ const Navbar = () => {
             <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'>   <a href="/aboutus" className="text-xl"><Link to="/aboutus">About Us</Link></a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>   
               <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'><a href="/ourproducts" className="text-xl"><Link to="/ourproducts">Our Products</Link></a>
-            <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>  
+            <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>
+            
                <li className='text-black relative font-inherit py-7 hover:text-lightBlue hover:text-2xl cursor-pointer transition-all duration-200 text-xl group'> <a href="/contactus" className="text-xl"> <Link to="/contactus">Contact Us</Link></a>
             <div className='absolute w-full h-1 bg-black	 bottom-0 opacity-0 group-hover:opacity-100'></div></li>
 

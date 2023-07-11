@@ -16,9 +16,9 @@ import cat_4 from "../images/cat-4.jpg";
 import cat_5 from "../images/cat-5.jpg";
 import { useEffect } from "react";
 const Aboutus = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   return (
     <div>
       <Navbar />
@@ -172,6 +172,57 @@ const Aboutus = () => {
         </p>
       </div>
 
+      {/* Category  */}
+      <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
+        <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
+          Our Category
+        </h1>
+      </div>
+
+      <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10 md:pl-[60px] grid  grid-cols-1 md:grid-cols-2 text-xl leading-2 md:leading-8">
+        <div className="cat">
+        <p className="text-red-800 text-2xl md:text-3xl">MICRO NEEDLE HOLDER</p>
+          <ul class="dashed">
+            <li>MICRO NEEDLE HOLDER</li>
+            <li>CURVED  CASTROVIEJO NEEDLE HOLDER</li>
+            <li>STRAIGHT CASTROVIEJO NEEDLE HOLDER</li>
+            <li>NEEDLE HOLDER</li>
+            <li>BARRAQUER'S NEEDLE HOLDER</li>
+          </ul>
+        </div>
+        <div className="cat">
+        <p className="text-red-800 text-2xl md:text-3xl">SURGERY INSTRUMENTS</p>
+          <ul class="dashed">
+            <li>PUNCHES</li>
+            <li>BONE PUNCH</li>
+            <li>PLASTIC SURGERY INSTRUMENTS</li>
+            <li>CANNULA</li>
+            <li>MICROSURGERY INSTRUMENTS </li>
+          </ul>
+        </div>
+        <div className="cat">
+        <p className="text-red-800 text-2xl md:text-3xl">MICRO FORCEP</p>
+          <ul class="dashed">
+            <li>ROUND BODY FORCEP</li>
+            <li>MICRO FORCEP</li>
+            <li>ARTERY FORCEP</li>
+            <li>IRIS FORCEP</li>
+            
+          </ul>
+        </div>
+        
+        <div className="cat">
+        <p className="text-red-800 text-2xl md:text-3xl">SCISSORS</p>
+          <ul class="dashed">
+            <li>STRAIGHT MICRO SCISSORS</li>
+            <li>CURVED  SCISSORS</li>
+            <li>VANNAS' SCISSORS</li>
+            <li>CORNEAL SPRING SCISSORS</li>
+          </ul>
+        </div>
+       
+      </div>
+
       {/* our Products */}
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
         <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
@@ -207,10 +258,14 @@ const Aboutus = () => {
             </p>
       </div> */}
         {/* cat-1 */}
-        <div className="flex flex-col md:flex-row" >
+        <div className="flex flex-col md:flex-row">
           <div>
-          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
-            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+            <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot
+              size="35px"
+              color="rgb(21 101 192 )"
+              className="hidden md:block"
+            />
           </div>
           <div className="ml-5 " id="vitreoretina">
             {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
@@ -254,8 +309,12 @@ const Aboutus = () => {
         {/* cat-2 */}
         <div className="flex flex-col md:flex-row">
           <div>
-          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
-            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+            <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot
+              size="35px"
+              color="rgb(21 101 192 )"
+              className="hidden md:block"
+            />
           </div>
           <div className="ml-5" id="OPHTHALMICCANNULAS">
             {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
@@ -298,8 +357,12 @@ const Aboutus = () => {
         {/* cat-3 */}
         <div className="flex flex-col md:flex-row">
           <div>
-          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
-            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+            <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot
+              size="35px"
+              color="rgb(21 101 192 )"
+              className="hidden md:block"
+            />
           </div>
           <div className="ml-5" id="FLUIDMANAGEMENTDEVICES">
             {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
@@ -340,8 +403,12 @@ const Aboutus = () => {
         {/* cat-4 */}
         <div className="flex flex-col md:flex-row">
           <div>
-          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
-            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+            <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot
+              size="35px"
+              color="rgb(21 101 192 )"
+              className="hidden md:block"
+            />
           </div>
           <div className="ml-5" id="Needleholder">
             {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
@@ -381,8 +448,12 @@ const Aboutus = () => {
         {/* cat-5 */}
         <div className="flex flex-col md:flex-row">
           <div>
-          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
-            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+            <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot
+              size="35px"
+              color="rgb(21 101 192 )"
+              className="hidden md:block"
+            />
           </div>
           <div className="ml-5" id="AKAHOSHIPRECHOPPER">
             {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
@@ -420,8 +491,7 @@ const Aboutus = () => {
             </p>
           </div>
         </div>
-        
-            
+
         {/* prod-2 */}
         {/* <div className="flex flex-row">
           <div>

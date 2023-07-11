@@ -346,7 +346,43 @@ table,thead,th,td,tr{
   }
 }
 
+#indianflag:hover  .Extra-Text {
+  opacity: 100;
+  z-index: 15000;
+}
 
+.Extra-Text {
+  position: absolute;
+  text-align: center;
+  right: -90px;
+  top: 88px;
+  background: rgba(255,255,255,0.5);
+  color: var(--gray);
+  margin-top: 10px;
+  width: 60vw;
+  height:60vh;
+  border: 2px solid #000000;
+  padding: 10px;
+  font-size: 16px;
+  opacity: 0;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  margin-top: 10px;
+  padding-left: 25px;
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.cat{
+  margin-bottom: 15px;
+}
 /* .container {
   display: flex;
   justiry-content: start;
