@@ -7,10 +7,10 @@ const LINKS = [
   {
     title: "Product",
     items: [(<a href="/aboutus"><Link to="/aboutus"><HashLink smooth to='/aboutus/#vitreoretina' > VITREO RETINA </HashLink></Link></a> ), 
-    (<a href="/aboutus"><Link to="/aboutus"><HashLink smooth to='/aboutus/#OPHTHALMICCANNULAS' > OPHTHALMIC CANNULAS</HashLink></Link></a> ), 
-    (<a href="/aboutus"><Link to="/aboutus"><HashLink smooth to='/aboutus/#FLUIDMANAGEMENTDEVICES' > FLUID MANAGEMENT DEVICES </HashLink></Link></a> ),
-    (<a href="/aboutus"><Link to="/aboutus"><HashLink smooth to='/aboutus/#Needleholder' > Needle holder </HashLink></Link></a> ),
-    (<a href="/aboutus"><Link to="/aboutus"><HashLink smooth to='/aboutus/#AKAHOSHIPRECHOPPER' > AKAHOSHI PRE-CHOPPER </HashLink></Link></a> )],
+    (<HashLink smooth to='/aboutus/#OPHTHALMICCANNULAS' > OPHTHALMIC CANNULAS</HashLink> ), 
+    (<HashLink smooth to='/aboutus/#FLUIDMANAGEMENTDEVICES' > FLUID MANAGEMENT DEVICES </HashLink> ),
+    (<HashLink smooth to='/aboutus/#Needleholder' > Needle holder </HashLink> ),
+    (<HashLink smooth to='/aboutus/#AKAHOSHIPRECHOPPER' > AKAHOSHI PRE-CHOPPER </HashLink> )],
   },
   {
     title: "Company",
