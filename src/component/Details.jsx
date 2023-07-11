@@ -38,7 +38,7 @@ const Details = () => {
             <h4 className="info-head mt-1">GST NO.</h4>
 
             <p className="benefits-detail">
-            GST NO. -27CREPM4118E1ZZ <br />
+            GST NO.- 27CREPM4118E1ZZ <br />
             
 
 

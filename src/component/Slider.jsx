@@ -65,7 +65,8 @@ export default function Slider() {
               color="white"
               className="mb-12 opacity-80 smll-font"
             >
-              "Fraglot ", are a well known name engaged in manufacturing and supplying an array of Surgical Instruments.
+              {/* "Fraglot ", are a well known name engaged in manufacturing and supplying an array of Surgical Instruments. */}
+              “FRAGLOT INDUSTRIES ”, are a well known name engaged in manufacturing and supplying of Surgical Instruments. Our products are accepted and appreciated for features precisely designed and efficient functioning. We believe in maintaining the quality not only in products but also in our lives
             </Typography>
             <div className="flex justify-center gap-2">
               <Button size="lg" color="white">

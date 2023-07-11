@@ -9,13 +9,17 @@ import waran from "../images/waran.7a6416166ed3df4c00af.png";
 import { Link } from "react-router-dom";
 import { RxDot } from "react-icons/rx";
 import "../App.css";
+import cat_1 from "../images/cat-1.jpg";
+import cat_2 from "../images/cat-2.jpg";
+import cat_3 from "../images/cat-3-removebg-preview.png";
+import cat_4 from "../images/cat-4.jpg";
+import cat_5 from "../images/cat-5.jpg";
 import { useEffect } from "react";
 const Aboutus = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
-
     <div>
       <Navbar />
       <div className="md:rounded-xl h-[200px] md:h-[250px]">
@@ -54,6 +58,8 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
+
+      {/* About us */}
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
         <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           About Us
@@ -62,15 +68,26 @@ const Aboutus = () => {
 
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl  ">
         <p className="mb-5 	 leading-normal ">
-          Fraglot is a one of the leading manufacturer and supplier of
+          {/* Fraglot is a one of the leading manufacturer and supplier of
           wide-range of highly demanded finest quality Surgical Instruments in
-          India.
+          India. */}
+          Established in the year 2018 we, "FRAGLOT INDUSTRIES", are a well
+          known name engaged in manufacturing and supplying an array of Surgical
+          Instruments. Our products are accepted and appreciated for designed
+          and efficient functioning. We believe in maintaining the quality not
+          only in products but also in our lives.
         </p>
         <p className="mb-5 leading-normal">
-          Fraglot offers diverse range of hair transplant instruments and
+          {/* Fraglot offers diverse range of hair transplant instruments and
           products to help and assist specialist surgeons in hair restoration
           surgery making us most popular surgical instruments brand in the
-          market.
+          market. */}
+          Leader of our segments in the ophthalmic industry y. Ophthalmic
+          instruments include: Forceps - Serrated and untoothed forceps for
+          holding tissue, such as the iris, to restrict movement during
+          ophthalmology. Our key product categories include surgical lenses,
+          ophthalmic diagnostic strips, vitreo-retina devices, cataract blades &
+          specialty devices, fluid management devices and ophthalmic cannulas
         </p>
         <p className="mb-5 leading-normal">
           At Fraglot Surgicals, we design and precision manufacture these
@@ -88,6 +105,7 @@ const Aboutus = () => {
         </p>
       </div>
 
+      {/* Infrastructure */}
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
         <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           Infrastructure
@@ -96,9 +114,14 @@ const Aboutus = () => {
 
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10  md:pl-[60px] text-xl leading-2 md:leading-8">
         <p className="mb-1 	 leading-normal text-left">
-          Instruments Wide-ranging Applications
+          {/* Instruments Wide-ranging Applications */}
+          We possess a highly advanced manufacturing facility run by a team of
+          immensely experienced and qualified personnel. We lays a special
+          emphasis on the packaging of our products and deliver them safely to
+          the client. Packaging our products in specially designed customized
+          contains, we ensure that there is no damage to the products.
         </p>
-        <p className="mb-1 leading-normal">
+        {/* <p className="mb-1 leading-normal">
           You can select from a vast assortment of instruments products, such as
           the Dermojet, Derma blade, and more, which we provide for various
           medical applications. Our instruments and equipment are used for
@@ -115,8 +138,25 @@ const Aboutus = () => {
           All the instruments and equipment that we make available to you are
           passed through a Certified Quality Management System, as per ISO 13485
           and ISO 9001.
+        </p> */}
+      </div>
+
+      {/* Mission */}
+      <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
+        <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
+          Mission
+        </h1>
+      </div>
+      <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10 md:pl-[60px] text-xl leading-2 md:leading-8">
+        <p className="mb-2 	leading-normal ">
+          We manufacture high quality ophthalmic devices which are 100% reliable
+          through constant progressive innovation. We are dedicated towards our
+          vision to help the ophthalmic community improve the lives of their
+          patients through our products.
         </p>
       </div>
+
+      {/* Client Satisfaction */}
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
         <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           Client Satisfaction
@@ -124,28 +164,29 @@ const Aboutus = () => {
       </div>
       <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10 md:pl-[60px] text-xl leading-2 md:leading-8">
         <p className="mb-2 	leading-normal ">
-          Our organization has adopted various measures that have enabled us to
-          attain maximum level of client satisfaction.
+          With self appraisal, employees become active participants in their
+          review and appraisal process, rather than simply being passive
+          recipients. Consequently, they feel valued, motivated and the level of
+          engagement increases. Furthermore, with greater engagement, levels of
+          commitment, retention and productivity go up.
         </p>
       </div>
 
+      {/* our Products */}
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res">
         <h1 className="text-sky-600	 text-4xl md:text-6xl text-blue-800 font-bold">
           Our Products
         </h1>
       </div>
 
-      <div className=" opacity-80 benefits-detail text-justify bt	px-6  md:mx-14 mt-10 md:pl-[60px] text-xl leading-2 md:leading-8">
-        {/* pord-1 */}
-        <div className="flex flex-row">
-          <div>
-            <RxDot size="35px" color="rgb(21 101 192 )" />
-          </div>
-          <div>
-            <p className="mb-2 	 leading-normal">
-              {" "}
+      <div className=" opacity-80 benefits-detail text-justify bt flex flex-col gap-10	px-6  md:mx-14 mt-10 md:pl-[60px] text-xl leading-2 md:leading-8">
+        {/* <div className="container">
+        <img src={prod_1} alt="" />
+        <p className="mb-2 	 leading-normal">
+          
               <span className="font-bold opacity-100">
-                {" "}
+                
+                
                 Hair Transplant Instruments &nbsp;&nbsp;
               </span>
               (Hair Transplant Slits, Hair Transplant Adaptors / Handle,
@@ -164,10 +205,225 @@ const Aboutus = () => {
               storage box, Hair Transplant Silicon pillow, Hair transplant
               chair, Hair Transplant LED OT lights)
             </p>
+      </div> */}
+        {/* cat-1 */}
+        <div className="flex flex-col md:flex-row" >
+          <div>
+          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+          </div>
+          <div className="ml-5 " id="vitreoretina">
+            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
+            <img
+              src={cat_1}
+              alt=""
+              width="1800"
+              height="800"
+              className="border hover:border-solid	hover:border-black	"
+            />
+          </div>
+          <div className="pt-12 md:pt-24 md:pl-10">
+            <p className="mb-2 	 leading-normal ">
+              {" "}
+              <span className="font-bold opacity-100">
+                {" "}
+                VITREO RETINA &nbsp;:&nbsp;
+              </span>
+              Vitreoretinal is a term that pertains to the vitreous fluid in the
+              eye and the retina. This portion of your eye is in the back. The
+              fluid is a clear, gel-like substance that helps your eye maintain
+              its shape. Vitreoretinal diseases are conditions that affect
+              structures in the eye called the retina and the vitreous. The
+              retina is the light-sensitive layer in the back of the eye that
+              focuses images and transmits that information to the brain via the
+              optic nerve
+              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
+              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
+              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
+              Thick body implanting forceps, Thick body extracting forceps,
+              Adson hair implanting forceps, Adson hair extracting forceps,
+              Adson brown hair implanting forceps, Adson brown hair extracting
+              forceps, Hair Transplant Graft collector, Hair Transplant graft
+              Chilling device, Hair Transplant Micro motor and hand piece, Hair
+              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
+              storage box, Hair Transplant Silicon pillow, Hair transplant
+              chair, Hair Transplant LED OT lights) */}
+            </p>
           </div>
         </div>
+        {/* cat-2 */}
+        <div className="flex flex-col md:flex-row">
+          <div>
+          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+          </div>
+          <div className="ml-5" id="OPHTHALMICCANNULAS">
+            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
+            <img
+              src={cat_2}
+              alt=""
+              width="1800"
+              height="800"
+              className="border hover:border-solid	hover:border-black	"
+            />
+          </div>
+          <div className="pt-12 md:pt-24 md:pl-10">
+            <p className="mb-2 	 leading-normal ">
+              {" "}
+              <span className="font-bold opacity-100">
+                {" "}
+                OPHTHALMIC CANNULAS &nbsp;:&nbsp;
+              </span>
+              Disposable Ophthalmic Cannula used for maintaining or forming
+              anterior chamber and irrigating cornea during surgery. It may be
+              used for injection or removal of air, fluids, and viscoelastic
+              substances during an ophthalmic surgery. Ophthalmic instruments
+              are used by a variety of individuals who are concerned with the
+              health and performance of the eyes as organs of the body
+              cooperating binocularly as optical systems
+              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
+              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
+              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
+              Thick body implanting forceps, Thick body extracting forceps,
+              Adson hair implanting forceps, Adson hair extracting forceps,
+              Adson brown hair implanting forceps, Adson brown hair extracting
+              forceps, Hair Transplant Graft collector, Hair Transplant graft
+              Chilling device, Hair Transplant Micro motor and hand piece, Hair
+              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
+              storage box, Hair Transplant Silicon pillow, Hair transplant
+              chair, Hair Transplant LED OT lights) */}
+            </p>
+          </div>
+        </div>
+        {/* cat-3 */}
+        <div className="flex flex-col md:flex-row">
+          <div>
+          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+          </div>
+          <div className="ml-5" id="FLUIDMANAGEMENTDEVICES">
+            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
+            <img
+              src={cat_3}
+              alt=""
+              width="1400"
+              height="800"
+              className="border hover:border-solid	hover:border-black	"
+            />
+          </div>
+          <div className="pt-12 md:pt-24 md:pl-10">
+            <p className="mb-2 	 leading-normal ">
+              {" "}
+              <span className="font-bold opacity-100">
+                {" "}
+                FLUID MANAGEMENT DEVICES &nbsp;:&nbsp;
+              </span>
+              Fluid management is an essential aspect for any patient admitted
+              to the hospital. If possible, patients should take fluids
+              enterally since this is the natural route of fluid intake.
+              However, many patients who are sick enough to need admission to
+              the hospital might have a reason they cannot tolerate oral intake.
+              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
+              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
+              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
+              Thick body implanting forceps, Thick body extracting forceps,
+              Adson hair implanting forceps, Adson hair extracting forceps,
+              Adson brown hair implanting forceps, Adson brown hair extracting
+              forceps, Hair Transplant Graft collector, Hair Transplant graft
+              Chilling device, Hair Transplant Micro motor and hand piece, Hair
+              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
+              storage box, Hair Transplant Silicon pillow, Hair transplant
+              chair, Hair Transplant LED OT lights) */}
+            </p>
+          </div>
+        </div>
+        {/* cat-4 */}
+        <div className="flex flex-col md:flex-row">
+          <div>
+          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+          </div>
+          <div className="ml-5" id="Needleholder">
+            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
+            <img
+              src={cat_4}
+              alt=""
+              width="1000"
+              height="1000"
+              className="border hover:border-solid	hover:border-black	"
+            />
+          </div>
+          <div className="pt-12 md:pt-24 md:pl-10">
+            <p className="mb-2 	 leading-normal ">
+              {" "}
+              <span className="font-bold opacity-100">
+                {" "}
+                Needle holder&nbsp;&nbsp;
+              </span>
+              Forceps, is a surgical instrument similar to a hemostat, used by
+              doctors and surgeons to hold and push a suturing needle when
+              performing wound closure, ligation and other surgical procedures
+              that require re-anastomosis.
+              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
+              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
+              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
+              Thick body implanting forceps, Thick body extracting forceps,
+              Adson hair implanting forceps, Adson hair extracting forceps,
+              Adson brown hair implanting forceps, Adson brown hair extracting
+              forceps, Hair Transplant Graft collector, Hair Transplant graft
+              Chilling device, Hair Transplant Micro motor and hand piece, Hair
+              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
+              storage box, Hair Transplant Silicon pillow, Hair transplant
+              chair, Hair Transplant LED OT lights) */}
+            </p>
+          </div>
+        </div>
+        {/* cat-5 */}
+        <div className="flex flex-col md:flex-row">
+          <div>
+          <div className="w-6 h-1 bg-green-400	 mx-auto mt-4 mb-6 md:mb-20 md:hidden"></div>
+            <RxDot size="35px" color="rgb(21 101 192 )" className="hidden md:block" />
+          </div>
+          <div className="ml-5" id="AKAHOSHIPRECHOPPER">
+            {/* <RxDot size="35px" color="rgb(21 101 192 )" /> */}
+            <img
+              src={cat_5}
+              alt=""
+              width="1300"
+              height="800"
+              className="border hover:border-solid	hover:border-black	"
+            />
+          </div>
+          <div className="pt-12 md:pt-24 md:pl-10">
+            <p className="mb-2 	 leading-normal ">
+              {" "}
+              <span className="font-bold opacity-100">
+                {" "}
+                AKAHOSHI PRE-CHOPPER&nbsp;&nbsp;
+              </span>
+              The Akahoshi prechopper is a safe and efficient tool to segment
+              the lens nucleus into 4 quadrants without using any
+              phacoemulsification energy. It is inserted into the eye to
+              fragment the nucleus and can also be used to rotate the lens
+              nucleus with minimal zonular stress.
+              {/* Implanting 3 hole design Forceps, Extracting 3 hole design
+              Forceps, Implanting Forester Forceps, Extracting Forester Forceps,
+              Implanting Castroviezo forceps, Extracting Castroviezo forceps,
+              Thick body implanting forceps, Thick body extracting forceps,
+              Adson hair implanting forceps, Adson hair extracting forceps,
+              Adson brown hair implanting forceps, Adson brown hair extracting
+              forceps, Hair Transplant Graft collector, Hair Transplant graft
+              Chilling device, Hair Transplant Micro motor and hand piece, Hair
+              Transplant Lens loupes, Hair line markers, Hair Transplant Punch
+              storage box, Hair Transplant Silicon pillow, Hair transplant
+              chair, Hair Transplant LED OT lights) */}
+            </p>
+          </div>
+        </div>
+        
+            
         {/* prod-2 */}
-        <div className="flex flex-row">
+        {/* <div className="flex flex-row">
           <div>
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
@@ -189,9 +445,9 @@ const Aboutus = () => {
               artery, Tubal clamps)
             </p>
           </div>
-        </div>
+        </div> */}
         {/* prod-3 */}
-        <div className="flex flex-row">
+        {/* <div className="flex flex-row">
           <div>
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
@@ -203,9 +459,9 @@ const Aboutus = () => {
               </span>
             </p>
           </div>
-        </div>
+        </div> */}
         {/* prod-4 */}
-        <div className="flex flex-row">
+        {/* <div className="flex flex-row">
           <div>
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
@@ -217,9 +473,9 @@ const Aboutus = () => {
               </span>
             </p>
           </div>
-        </div>
+        </div> */}
         {/* prod-5 */}
-        <div className="flex flex-row">
+        {/* <div className="flex flex-row">
           <div>
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
@@ -231,9 +487,9 @@ const Aboutus = () => {
               </span>
             </p>
           </div>
-        </div>
+        </div> */}
         {/* prod-6 */}
-        <div className="flex flex-row">
+        {/* <div className="flex flex-row">
           <div>
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
@@ -246,10 +502,10 @@ const Aboutus = () => {
               </span>
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* prod-7 */}
-        <div className="flex flex-row">
+        {/* <div className="flex flex-row">
           <div>
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
@@ -261,10 +517,10 @@ const Aboutus = () => {
               </span>
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* prod-8 */}
-        <div className="flex flex-row">
+        {/* <div className="flex flex-row">
           <div>
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
@@ -276,10 +532,10 @@ const Aboutus = () => {
               </span>
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* prod-9 */}
-        <div className="flex flex-row">
+        {/* <div className="flex flex-row">
           <div>
             <RxDot size="35px" color="rgb(21 101 192 )" />
           </div>
@@ -292,7 +548,7 @@ const Aboutus = () => {
               </span>
             </p>
           </div>
-        </div>
+        </div>   */}
       </div>
 
       <div className="  md:mx-14 mt-14 px-6 md:pl-14 res ">
@@ -300,14 +556,14 @@ const Aboutus = () => {
           Packaging / Payment and Shipment Details
         </h1>
       </div>
-{/* web */}
+      {/* web */}
       <div className=" hidden md:block opacity-80   text-justify bt tbh	px-6  md:mx-14 mt-10  md:pl-[60px] md:text-xl  md:leading-8 tb">
         <table className="w-2/4  md:w-3/4 tbh">
           <tbody>
-            <tr >
+            <tr>
               <td className="tleft ">Packaging :</td>
               <td>
-                <ul >
+                <ul>
                   <li>
                     Plastic Box / Wooden box / Bubble wrapped / Customized
                   </li>
@@ -319,7 +575,10 @@ const Aboutus = () => {
 
             <tr>
               <td className="tleft">Payment mode :</td>
-              <td className="tright"> T/T (Bank Transfer) / Cash / Cheque / DD</td>
+              <td className="tright">
+                {" "}
+                T/T (Bank Transfer) / Cash / Cheque / DD
+              </td>
             </tr>
 
             <tr>
@@ -335,26 +594,26 @@ const Aboutus = () => {
             <tr>
               <td className="tleft">Bank Details :</td>
               <td className="tright">
-             Bank name- ICICI BANK, <br /> A/C NO. - 039301004185, <br />IFSC CODE -
-                ICIC0000393, <br /> City - Mumbai
+                Bank name- ICICI BANK, <br /> A/C NO. - 039301004185, <br />
+                IFSC CODE - ICIC0000393, <br /> City - Mumbai
               </td>
             </tr>
 
             <tr>
               <td className="tleft">GST No :</td>
-              <td className="tright">  27CREPM4118E1ZZ</td>
+              <td className="tright"> 27CREPM4118E1ZZ</td>
             </tr>
           </tbody>
         </table>
       </div>
-{/* mobile */}
-        <div className="opacity-80 p-3 block  md:hidden ">
+      {/* mobile */}
+      <div className="opacity-80 p-3 block  md:hidden ">
         <table className="w-full tbw">
           <tbody>
-            <tr >
+            <tr>
               <td className="trightm">Packaging :</td>
               <td className="tleftm ">
-                <ul >
+                <ul>
                   <li>
                     Plastic Box / Wooden box / Bubble wrapped / Customized
                   </li>
@@ -366,7 +625,10 @@ const Aboutus = () => {
 
             <tr>
               <td className="trightm">Payment mode :</td>
-              <td className="tleftm"> T/T (Bank Transfer) / Cash / Cheque / DD</td>
+              <td className="tleftm">
+                {" "}
+                T/T (Bank Transfer) / Cash / Cheque / DD
+              </td>
             </tr>
 
             <tr>
@@ -382,18 +644,18 @@ const Aboutus = () => {
             <tr>
               <td className="trightm">Bank Details :</td>
               <td className="tleftm">
-             Bank name- ICICI BANK, <br /> A/C NO. - 039301004185, <br />IFSC CODE -
-                ICIC0000393, <br /> City - Mumbai
+                Bank name- ICICI BANK, <br /> A/C NO. - 039301004185, <br />
+                IFSC CODE - ICIC0000393, <br /> City - Mumbai
               </td>
             </tr>
 
             <tr>
               <td className="trightm">GST No :</td>
-              <td className="tleftm">  27CREPM4118E1ZZ</td>
+              <td className="tleftm"> 27CREPM4118E1ZZ</td>
             </tr>
           </tbody>
         </table>
-        </div>
+      </div>
       <div className="benefits-about extra-margin flex flex-col  md:flex-row justify-center md:gap-[150px]">
         <div className="benefits-single">
           <img src={quality} alt="Quality" className="benefits-quality" />
