@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 const LINKS = [
   {
     title: "Product",
-    items: [(<a href="/aboutus"><Link to="/aboutus"><HashLink smooth to='/aboutus/#vitreoretina' > VITREO RETINA </HashLink></Link></a> ), 
+    items: [(<HashLink smooth to='/aboutus/#vitreoretina' > VITREO RETINA </HashLink> ), 
     (<HashLink smooth to='/aboutus/#OPHTHALMICCANNULAS' > OPHTHALMIC CANNULAS</HashLink> ), 
     (<HashLink smooth to='/aboutus/#FLUIDMANAGEMENTDEVICES' > FLUID MANAGEMENT DEVICES </HashLink> ),
     (<HashLink smooth to='/aboutus/#Needleholder' > Needle holder </HashLink> ),

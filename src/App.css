@@ -339,6 +339,13 @@ table,thead,th,td,tr{
 }
 
 /* new */
+@media screen and (max-width: 400px)  {
+  #Needleholder,#AKAHOSHIPRECHOPPE,#FLUIDMANAGEMENTDEVICES,#OPHTHALMICCANNULAS,#vitreoretina  {
+    margin: 0px auto;
+
+  }
+}
+
 
 /* .container {
   display: flex;
