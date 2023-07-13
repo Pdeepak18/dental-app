@@ -24,10 +24,10 @@ const Contactus = () => {
     console.log(form.current);
     emailjs
       .sendForm(
-        "service_3fi3yyp",
-        "template_cixjtok",
+        "service_gd87elo",
+        "template_io399ra",
         form.current,
-        "zr-jq9Sw59FE6Uvqf"
+        "xSpHSS1hi_pa5UX2R"
       )
       .then(
         (result) => {
